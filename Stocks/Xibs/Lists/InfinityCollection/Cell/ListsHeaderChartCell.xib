@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ListsHeaderChartCell" id="3Od-fN-oXw" customClass="ListsHeaderChartCell" customModule="Stocks" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="168" height="55"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="xqP-V8-sWl">
+                <rect key="frame" x="0.0" y="0.0" width="168" height="55"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="-4" translatesAutoresizingMaskIntoConstraints="NO" id="Mhh-Qd-gle">
+                        <rect key="frame" x="93" y="0.0" width="75" height="55"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dow Jones" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="CAl-Eh-DUd">
+                                <rect key="frame" x="0.0" y="0.0" width="75" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="35,314.40" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="0np-xk-KST">
+                                <rect key="frame" x="0.0" y="17" width="75" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+100.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="SJE-b7-AsR">
+                                <rect key="frame" x="0.0" y="34" width="75" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                <color key="textColor" systemColor="systemGreenColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xfw-Kf-2ac" customClass="UIGraphView" customModule="Stocks" customModuleProvider="target">
+                        <rect key="frame" x="25" y="15" width="60" height="25"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="KqH-Gk-NWO"/>
+                            <constraint firstAttribute="height" constant="25" id="zl0-nr-2uQ"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="minusColor">
+                                <color key="value" name="GraphRed"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="plusColor">
+                                <color key="value" name="GraphGreen"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="dashPlusColor">
+                                <color key="value" name="GraphGreen"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="dashMinusColor">
+                                <color key="value" name="GraphRed"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="Mhh-Qd-gle" firstAttribute="top" secondItem="xqP-V8-sWl" secondAttribute="top" id="BUY-Mx-NEU"/>
+                    <constraint firstItem="xfw-Kf-2ac" firstAttribute="centerY" secondItem="Mhh-Qd-gle" secondAttribute="centerY" id="Dlx-ee-pZT"/>
+                    <constraint firstAttribute="trailing" secondItem="Mhh-Qd-gle" secondAttribute="trailing" id="GtA-2A-THN"/>
+                    <constraint firstItem="Mhh-Qd-gle" firstAttribute="leading" secondItem="xfw-Kf-2ac" secondAttribute="trailing" constant="8" id="KBc-1x-Ams"/>
+                    <constraint firstAttribute="bottom" secondItem="Mhh-Qd-gle" secondAttribute="bottom" id="KJt-my-fWC"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="277" height="108"/>
+            <connections>
+                <outlet property="graphView" destination="xfw-Kf-2ac" id="a4G-6D-r0n"/>
+                <outlet property="priceChangeLabel" destination="SJE-b7-AsR" id="ZpA-zb-0Yr"/>
+                <outlet property="priceLabel" destination="0np-xk-KST" id="gJu-on-3PF"/>
+                <outlet property="symbolLabel" destination="CAl-Eh-DUd" id="QcW-gH-tqc"/>
+            </connections>
+            <point key="canvasLocation" x="85.496183206106863" y="244.71830985915494"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="GraphGreen">
+            <color red="0.20392156862745098" green="0.77647058823529413" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="GraphRed">
+            <color red="0.99607843137254903" green="0.22745098039215686" blue="0.19607843137254902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

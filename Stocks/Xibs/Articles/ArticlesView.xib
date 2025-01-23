@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23504"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ArticlesView" customModule="Stocks" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xhg-Nr-rtx" customClass="IBDesignableView" customModule="Stocks" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X7Z-db-OL0">
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="20"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4iB-fs-DxJ" customClass="IBDesignableView" customModule="Stocks" customModuleProvider="target">
+                                    <rect key="frame" x="176.66666666666666" y="7.6666666666666679" width="40" height="5"/>
+                                    <color key="backgroundColor" red="0.38431372549999998" green="0.38431372549999998" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="5" id="WxR-we-r9q"/>
+                                        <constraint firstAttribute="width" constant="40" id="mfK-S0-DbW"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="leftTopCorners" value="YES"/>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="rightTopCorners" value="YES"/>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="leftBottomCorners" value="YES"/>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="rightBottomCorners" value="YES"/>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="2.5"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="4iB-fs-DxJ" firstAttribute="centerX" secondItem="X7Z-db-OL0" secondAttribute="centerX" id="A5o-U7-QCG"/>
+                                <constraint firstItem="4iB-fs-DxJ" firstAttribute="centerY" secondItem="X7Z-db-OL0" secondAttribute="centerY" id="goO-4z-PbA"/>
+                                <constraint firstAttribute="height" constant="20" id="re5-Gc-7FO"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.10980392156862745" green="0.10980392156862745" blue="0.11764705882352941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="X7Z-db-OL0" firstAttribute="leading" secondItem="xhg-Nr-rtx" secondAttribute="leading" id="O7Y-KA-9BX"/>
+                        <constraint firstItem="X7Z-db-OL0" firstAttribute="top" secondItem="xhg-Nr-rtx" secondAttribute="top" id="ad7-tX-LS2"/>
+                        <constraint firstAttribute="trailing" secondItem="X7Z-db-OL0" secondAttribute="trailing" id="vKD-aC-n9v"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="leftTopCorners" value="YES"/>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="rightTopCorners" value="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="12"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="xhg-Nr-rtx" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="2Ko-M3-oI7"/>
+                <constraint firstAttribute="bottom" secondItem="xhg-Nr-rtx" secondAttribute="bottom" id="UwS-fq-ZBU"/>
+                <constraint firstItem="xhg-Nr-rtx" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="iKq-RZ-M6B"/>
+                <constraint firstAttribute="trailing" secondItem="xhg-Nr-rtx" secondAttribute="trailing" id="pGz-e5-GQz"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="78.625954198473281" y="19.718309859154932"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="c6t-oC-XUR" customClass="ListsHeaderTitleView" customModule="Stocks" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="55"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="-8" translatesAutoresizingMaskIntoConstraints="NO" id="G9p-mR-lRm">
+                    <rect key="frame" x="18" y="0.0" width="319" height="55"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stocks" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tc9-aO-VSK">
+                            <rect key="frame" x="0.0" y="0.0" width="319" height="31.666666666666668"/>
+                            <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="25"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="23 January" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ewK-7N-LRy">
+                            <rect key="frame" x="0.0" y="23.666666666666671" width="319" height="31.333333333333329"/>
+                            <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="25"/>
+                            <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e9i-fd-THj" customClass="IBDesignableView" customModule="Stocks" customModuleProvider="target">
+                    <rect key="frame" x="345" y="12.666666666666664" width="30" height="30"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5HU-TG-m2H">
+                            <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                            <inset key="imageEdgeInsets" minX="5" minY="5" maxX="5" maxY="5"/>
+                            <state key="normal">
+                                <imageReference key="image" image="ellipsis" catalog="system" symbolScale="large"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.10980392160000001" green="0.10980392160000001" blue="0.1176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="5HU-TG-m2H" firstAttribute="top" secondItem="e9i-fd-THj" secondAttribute="top" id="0GS-Ex-MOE"/>
+                        <constraint firstAttribute="trailing" secondItem="5HU-TG-m2H" secondAttribute="trailing" id="N8m-h8-O1Z"/>
+                        <constraint firstItem="5HU-TG-m2H" firstAttribute="leading" secondItem="e9i-fd-THj" secondAttribute="leading" id="TFY-Uh-all"/>
+                        <constraint firstAttribute="height" constant="30" id="e24-6P-b93"/>
+                        <constraint firstAttribute="width" constant="30" id="sKa-R6-TwV"/>
+                        <constraint firstAttribute="bottom" secondItem="5HU-TG-m2H" secondAttribute="bottom" id="uIK-Ep-wXu"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="leftTopCorners" value="YES"/>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="rightTopCorners" value="YES"/>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="leftBottomCorners" value="YES"/>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="rightBottomCorners" value="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="15"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="OF2-hS-lFO"/>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="e9i-fd-THj" firstAttribute="centerY" secondItem="c6t-oC-XUR" secondAttribute="centerY" id="9SB-5G-FM9"/>
+                <constraint firstAttribute="bottom" secondItem="G9p-mR-lRm" secondAttribute="bottom" id="D23-ck-ii6"/>
+                <constraint firstItem="OF2-hS-lFO" firstAttribute="trailing" secondItem="e9i-fd-THj" secondAttribute="trailing" constant="18" id="Sma-TF-seq"/>
+                <constraint firstItem="G9p-mR-lRm" firstAttribute="leading" secondItem="OF2-hS-lFO" secondAttribute="leading" constant="18" id="ZSo-dg-EsJ"/>
+                <constraint firstItem="G9p-mR-lRm" firstAttribute="top" secondItem="c6t-oC-XUR" secondAttribute="top" id="j7A-za-vN4"/>
+                <constraint firstItem="e9i-fd-THj" firstAttribute="leading" secondItem="G9p-mR-lRm" secondAttribute="trailing" constant="8" id="mGs-uF-Yms"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="78.625954198473281" y="19.366197183098592"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ellipsis" catalog="system" width="128" height="37"/>
+    </resources>
+</document>

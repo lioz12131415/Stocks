@@ -1,0 +1,3171 @@
+{
+    "quoteResponse": {
+        "result": [
+            {
+                "symbol": "AAPL",
+                "dividendDate": {
+                    "raw": 1731542400,
+                    "fmt": "2024-11-13",
+                    "longFmt": "2024-11-13T19:00"
+                },
+                "twoHundredDayAverageChangePercent": {
+                    "raw": 0.18749142,
+                    "fmt": "18.75%"
+                },
+                "fiftyTwoWeekLowChangePercent": {
+                    "raw": 0.5122501,
+                    "fmt": "51.23%"
+                },
+                "isEarningsDateEstimate": true,
+                "averageAnalystRating": "1.9 - Buy",
+                "language": "en-US",
+                "dividendYield": {
+                    "raw": 0.4,
+                    "fmt": "0.40%"
+                },
+                "preMarketChangePercent": {
+                    "raw": -0.05211098,
+                    "fmt": "-0.05%"
+                },
+                "regularMarketDayRange": {
+                    "raw": "246.24 - 249.2902",
+                    "fmt": "246.24 - 249.29"
+                },
+                "earningsTimestampEnd": {
+                    "raw": 1738616400,
+                    "fmt": "2025-02-03",
+                    "longFmt": "2025-02-03T16:00"
+                },
+                "epsForward": {
+                    "raw": 8.31,
+                    "fmt": "8.31"
+                },
+                "regularMarketDayHigh": {
+                    "raw": 249.2902,
+                    "fmt": "249.29"
+                },
+                "twoHundredDayAverageChange": {
+                    "raw": 39.17691,
+                    "fmt": "39.18"
+                },
+                "twoHundredDayAverage": {
+                    "raw": 208.9531,
+                    "fmt": "208.95"
+                },
+                "askSize": {
+                    "raw": 4,
+                    "fmt": "4",
+                    "longFmt": "4"
+                },
+                "bookValue": {
+                    "raw": 3.767,
+                    "fmt": "3.77"
+                },
+                "marketCap": {
+                    "raw": 3750683475968,
+                    "fmt": "3.751T",
+                    "longFmt": "3,750,683,475,968"
+                },
+                "fiftyTwoWeekHighChange": {
+                    "raw": -2.6699982,
+                    "fmt": "-2.67"
+                },
+                "fiftyTwoWeekRange": {
+                    "raw": "164.08 - 250.8",
+                    "fmt": "164.08 - 250.80"
+                },
+                "fiftyDayAverageChange": {
+                    "raw": 15.788605,
+                    "fmt": "15.79"
+                },
+                "exchangeDataDelayedBy": 0,
+                "averageDailyVolume3Month": {
+                    "raw": 47292590,
+                    "fmt": "47.293M",
+                    "longFmt": "47,292,590"
+                },
+                "firstTradeDateMilliseconds": 345479400000,
+                "dividendRate": {
+                    "raw": 1.0,
+                    "fmt": "1.00"
+                },
+                "fiftyTwoWeekChangePercent": {
+                    "raw": 26.668024,
+                    "fmt": "26.67%"
+                },
+                "trailingAnnualDividendRate": {
+                    "raw": 0.98,
+                    "fmt": "0.98"
+                },
+                "hasPrePostMarketData": true,
+                "fiftyTwoWeekLow": {
+                    "raw": 164.08,
+                    "fmt": "164.08"
+                },
+                "market": "us_market",
+                "regularMarketVolume": {
+                    "raw": 33155290,
+                    "fmt": "33.155M",
+                    "longFmt": "33,155,290"
+                },
+                "quoteSourceName": "Nasdaq Real Time Price",
+                "messageBoardId": "finmb_24937",
+                "priceHint": 2,
+                "sourceInterval": 15,
+                "exchange": "NMS",
+                "regularMarketDayLow": {
+                    "raw": 246.24,
+                    "fmt": "246.24"
+                },
+                "shortName": "Apple Inc.",
+                "region": "US",
+                "fiftyDayAverageChangePercent": {
+                    "raw": 0.06795433,
+                    "fmt": "6.80%"
+                },
+                "preMarketTime": {
+                    "raw": 1734354552,
+                    "fmt": "8:09AM EST"
+                },
+                "fullExchangeName": "NasdaqGS",
+                "earningsTimestampStart": {
+                    "raw": 1738270800,
+                    "fmt": "2025-01-30",
+                    "longFmt": "2025-01-30T16:00"
+                },
+                "financialCurrency": "USD",
+                "displayName": "Apple",
+                "gmtOffSetMilliseconds": -18000000,
+                "regularMarketOpen": {
+                    "raw": 247.88,
+                    "fmt": "247.88"
+                },
+                "regularMarketTime": {
+                    "raw": 1734123601,
+                    "fmt": "4:00PM EST"
+                },
+                "regularMarketChangePercent": {
+                    "raw": 0.06855871,
+                    "fmt": "0.07%"
+                },
+                "quoteType": "EQUITY",
+                "trailingAnnualDividendYield": {
+                    "raw": 0.0039522504,
+                    "fmt": "0.40%"
+                },
+                "averageDailyVolume10Day": {
+                    "raw": 40096580,
+                    "fmt": "40.097M",
+                    "longFmt": "40,096,580"
+                },
+                "fiftyTwoWeekLowChange": {
+                    "raw": 84.05,
+                    "fmt": "84.05"
+                },
+                "earningsCallTimestampEnd": {
+                    "raw": 1730408400,
+                    "fmt": "2024-10-31",
+                    "longFmt": "2024-10-31T21:00"
+                },
+                "fiftyTwoWeekHighChangePercent": {
+                    "raw": -0.010645926,
+                    "fmt": "-1.06%"
+                },
+                "typeDisp": "Equity",
+                "trailingPE": {
+                    "raw": 40.810856,
+                    "fmt": "40.81"
+                },
+                "tradeable": false,
+                "currency": "USD",
+                "preMarketPrice": {
+                    "raw": 248.0007,
+                    "fmt": "248.00"
+                },
+                "sharesOutstanding": {
+                    "raw": 15115799552,
+                    "fmt": "15.116B",
+                    "longFmt": "15,115,799,552"
+                },
+                "regularMarketPreviousClose": {
+                    "raw": 247.96,
+                    "fmt": "247.96"
+                },
+                "fiftyTwoWeekHigh": {
+                    "raw": 250.8,
+                    "fmt": "250.80"
+                },
+                "exchangeTimezoneName": "America/New_York",
+                "bidSize": {
+                    "raw": 1,
+                    "fmt": "1",
+                    "longFmt": "1"
+                },
+                "regularMarketChange": {
+                    "raw": 0.16999817,
+                    "fmt": "0.17"
+                },
+                "priceEpsCurrentYear": {
+                    "raw": 33.561195,
+                    "fmt": "33.56"
+                },
+                "cryptoTradeable": false,
+                "fiftyDayAverage": {
+                    "raw": 232.3414,
+                    "fmt": "232.34"
+                },
+                "exchangeTimezoneShortName": "EST",
+                "epsCurrentYear": {
+                    "raw": 7.39336,
+                    "fmt": "7.39"
+                },
+                "marketState": "PRE",
+                "customPriceAlertConfidence": "HIGH",
+                "regularMarketPrice": {
+                    "raw": 248.13,
+                    "fmt": "248.13"
+                },
+                "preMarketChange": {
+                    "raw": -0.12930298,
+                    "fmt": "-0.13"
+                },
+                "forwardPE": {
+                    "raw": 29.859205,
+                    "fmt": "29.86"
+                },
+                "earningsTimestamp": {
+                    "raw": 1730406600,
+                    "fmt": "2024-10-31",
+                    "longFmt": "2024-10-31T16:30"
+                },
+                "ask": {
+                    "raw": 248.21,
+                    "fmt": "248.21"
+                },
+                "epsTrailingTwelveMonths": {
+                    "raw": 6.08,
+                    "fmt": "6.08"
+                },
+                "bid": {
+                    "raw": 235.31,
+                    "fmt": "235.31"
+                },
+                "priceToBook": {
+                    "raw": 65.86939,
+                    "fmt": "65.87"
+                },
+                "triggerable": true,
+                "earningsCallTimestampStart": {
+                    "raw": 1730408400,
+                    "fmt": "2024-10-31",
+                    "longFmt": "2024-10-31T21:00"
+                },
+                "longName": "Apple Inc."
+            },
+            {
+                "symbol": "APLY",
+                "twoHundredDayAverageChangePercent": {
+                    "raw": 0.039960586,
+                    "fmt": "4.00%"
+                },
+                "trailingThreeMonthNavReturns": {
+                    "raw": 4.22606,
+                    "fmt": "4.23%"
+                },
+                "netAssets": {
+                    "raw": 1.08053928E8,
+                    "fmt": "108.054M",
+                    "longFmt": "108,053,928"
+                },
+                "fiftyTwoWeekLowChangePercent": {
+                    "raw": 0.1416979,
+                    "fmt": "14.17%"
+                },
+                "language": "en-US",
+                "dividendYield": {
+                    "raw": 25.45,
+                    "fmt": "25.45%"
+                },
+                "preMarketChangePercent": {
+                    "raw": 0.43739703,
+                    "fmt": "0.44%"
+                },
+                "regularMarketDayRange": {
+                    "raw": "18.23 - 18.4385",
+                    "fmt": "18.23 - 18.44"
+                },
+                "regularMarketDayHigh": {
+                    "raw": 18.4385,
+                    "fmt": "18.44"
+                },
+                "twoHundredDayAverageChange": {
+                    "raw": 0.702795,
+                    "fmt": "0.70"
+                },
+                "twoHundredDayAverage": {
+                    "raw": 17.587206,
+                    "fmt": "17.59"
+                },
+                "askSize": {
+                    "raw": 10,
+                    "fmt": "10",
+                    "longFmt": "10"
+                },
+                "fiftyTwoWeekHighChange": {
+                    "raw": -1.6899986,
+                    "fmt": "-1.69"
+                },
+                "fiftyTwoWeekRange": {
+                    "raw": "16.02 - 19.98",
+                    "fmt": "16.02 - 19.98"
+                },
+                "fiftyDayAverageChange": {
+                    "raw": 0.46064186,
+                    "fmt": "0.46"
+                },
+                "exchangeDataDelayedBy": 0,
+                "averageDailyVolume3Month": {
+                    "raw": 51133,
+                    "fmt": "51,133",
+                    "longFmt": "51,133"
+                },
+                "firstTradeDateMilliseconds": 1681824600000,
+                "fiftyTwoWeekChangePercent": {
+                    "raw": -7.6262655,
+                    "fmt": "-7.63%"
+                },
+                "trailingAnnualDividendRate": {
+                    "raw": 0.0,
+                    "fmt": "0.00"
+                },
+                "hasPrePostMarketData": true,
+                "fiftyTwoWeekLow": {
+                    "raw": 16.02,
+                    "fmt": "16.02"
+                },
+                "market": "us_market",
+                "regularMarketVolume": {
+                    "raw": 36742,
+                    "fmt": "36,742",
+                    "longFmt": "36,742"
+                },
+                "quoteSourceName": "Nasdaq Real Time Price",
+                "messageBoardId": "finmb_1799894171",
+                "priceHint": 2,
+                "ytdReturn": {
+                    "raw": 14.86348,
+                    "fmt": "14.86%"
+                },
+                "sourceInterval": 15,
+                "exchange": "PCX",
+                "regularMarketDayLow": {
+                    "raw": 18.23,
+                    "fmt": "18.23"
+                },
+                "shortName": "Tidal ETF Trust II YieldMax AAP",
+                "region": "US",
+                "fiftyDayAverageChangePercent": {
+                    "raw": 0.025836142,
+                    "fmt": "2.58%"
+                },
+                "preMarketTime": {
+                    "raw": 1734354196,
+                    "fmt": "8:03AM EST"
+                },
+                "fullExchangeName": "NYSEArca",
+                "netExpenseRatio": {
+                    "raw": 1.06,
+                    "fmt": "1.06%"
+                },
+                "gmtOffSetMilliseconds": -18000000,
+                "regularMarketOpen": {
+                    "raw": 18.4,
+                    "fmt": "18.40"
+                },
+                "regularMarketTime": {
+                    "raw": 1734123600,
+                    "fmt": "4:00PM EST"
+                },
+                "regularMarketChangePercent": {
+                    "raw": -0.381262,
+                    "fmt": "-0.38%"
+                },
+                "quoteType": "ETF",
+                "trailingAnnualDividendYield": {
+                    "raw": 0.0,
+                    "fmt": "0.00%"
+                },
+                "averageDailyVolume10Day": {
+                    "raw": 41980,
+                    "fmt": "41,980",
+                    "longFmt": "41,980"
+                },
+                "fiftyTwoWeekLowChange": {
+                    "raw": 2.2700005,
+                    "fmt": "2.27"
+                },
+                "fiftyTwoWeekHighChangePercent": {
+                    "raw": -0.08458452,
+                    "fmt": "-8.46%"
+                },
+                "typeDisp": "ETF",
+                "tradeable": false,
+                "currency": "USD",
+                "preMarketPrice": {
+                    "raw": 18.37,
+                    "fmt": "18.37"
+                },
+                "regularMarketPreviousClose": {
+                    "raw": 18.36,
+                    "fmt": "18.36"
+                },
+                "fiftyTwoWeekHigh": {
+                    "raw": 19.98,
+                    "fmt": "19.98"
+                },
+                "trailingThreeMonthReturns": {
+                    "raw": 4.22606,
+                    "fmt": "4.23%"
+                },
+                "exchangeTimezoneName": "America/New_York",
+                "bidSize": {
+                    "raw": 13,
+                    "fmt": "13",
+                    "longFmt": "13"
+                },
+                "regularMarketChange": {
+                    "raw": -0.0699997,
+                    "fmt": "-0.07"
+                },
+                "cryptoTradeable": false,
+                "fiftyDayAverage": {
+                    "raw": 17.82936,
+                    "fmt": "17.83"
+                },
+                "exchangeTimezoneShortName": "EST",
+                "marketState": "PRE",
+                "customPriceAlertConfidence": "HIGH",
+                "regularMarketPrice": {
+                    "raw": 18.29,
+                    "fmt": "18.29"
+                },
+                "preMarketChange": {
+                    "raw": 0.07999992,
+                    "fmt": "0.08"
+                },
+                "ask": {
+                    "raw": 18.55,
+                    "fmt": "18.55"
+                },
+                "bid": {
+                    "raw": 18.29,
+                    "fmt": "18.29"
+                },
+                "triggerable": true,
+                "longName": "YieldMax AAPL Option Income Strategy ETF"
+            },
+            {
+                "symbol": "AAPL.NE",
+                "twoHundredDayAverageChangePercent": {
+                    "raw": 0.18093038,
+                    "fmt": "18.09%"
+                },
+                "fiftyTwoWeekLowChangePercent": {
+                    "raw": 0.4979406,
+                    "fmt": "49.79%"
+                },
+                "isEarningsDateEstimate": true,
+                "language": "en-US",
+                "dividendYield": {
+                    "raw": 0.4,
+                    "fmt": "0.40%"
+                },
+                "regularMarketDayRange": {
+                    "raw": "36.08 - 36.51",
+                    "fmt": "36.08 - 36.51"
+                },
+                "earningsTimestampEnd": {
+                    "raw": 1738616400,
+                    "fmt": "2025-02-03",
+                    "longFmt": "2025-02-03T16:00"
+                },
+                "regularMarketDayHigh": {
+                    "raw": 36.51,
+                    "fmt": "36.51"
+                },
+                "twoHundredDayAverageChange": {
+                    "raw": 5.5722485,
+                    "fmt": "5.57"
+                },
+                "twoHundredDayAverage": {
+                    "raw": 30.79775,
+                    "fmt": "30.80"
+                },
+                "bookValue": {
+                    "raw": 3.767,
+                    "fmt": "3.77"
+                },
+                "marketCap": {
+                    "raw": 5309619765248,
+                    "fmt": "5.31T",
+                    "longFmt": "5,309,619,765,248"
+                },
+                "fiftyTwoWeekHighChange": {
+                    "raw": -0.37000275,
+                    "fmt": "-0.37"
+                },
+                "fiftyTwoWeekRange": {
+                    "raw": "24.28 - 36.74",
+                    "fmt": "24.28 - 36.74"
+                },
+                "fiftyDayAverageChange": {
+                    "raw": 2.2735977,
+                    "fmt": "2.27"
+                },
+                "exchangeDataDelayedBy": 0,
+                "averageDailyVolume3Month": {
+                    "raw": 103779,
+                    "fmt": "103,779",
+                    "longFmt": "103,779"
+                },
+                "firstTradeDateMilliseconds": 1629898200000,
+                "dividendRate": {
+                    "raw": 0.15,
+                    "fmt": "0.15"
+                },
+                "fiftyTwoWeekChangePercent": {
+                    "raw": 24.759615,
+                    "fmt": "24.76%"
+                },
+                "trailingAnnualDividendRate": {
+                    "raw": 0.98,
+                    "fmt": "0.98"
+                },
+                "hasPrePostMarketData": false,
+                "fiftyTwoWeekLow": {
+                    "raw": 24.28,
+                    "fmt": "24.28"
+                },
+                "market": "ca_market",
+                "regularMarketVolume": {
+                    "raw": 33723,
+                    "fmt": "33,723",
+                    "longFmt": "33,723"
+                },
+                "quoteSourceName": "Delayed Quote",
+                "messageBoardId": "finmb_24937",
+                "priceHint": 2,
+                "sourceInterval": 15,
+                "exchange": "NEO",
+                "regularMarketDayLow": {
+                    "raw": 36.08,
+                    "fmt": "36.08"
+                },
+                "shortName": "APPLE CDR (CAD HEDGED)",
+                "region": "US",
+                "fiftyDayAverageChangePercent": {
+                    "raw": 0.06668146,
+                    "fmt": "6.67%"
+                },
+                "fullExchangeName": "Cboe CA",
+                "earningsTimestampStart": {
+                    "raw": 1738270800,
+                    "fmt": "2025-01-30",
+                    "longFmt": "2025-01-30T16:00"
+                },
+                "financialCurrency": "USD",
+                "gmtOffSetMilliseconds": -18000000,
+                "regularMarketOpen": {
+                    "raw": 36.25,
+                    "fmt": "36.25"
+                },
+                "regularMarketTime": {
+                    "raw": 1734123430,
+                    "fmt": "3:57PM EST"
+                },
+                "regularMarketChangePercent": {
+                    "raw": 0.055021893,
+                    "fmt": "0.06%"
+                },
+                "quoteType": "EQUITY",
+                "trailingAnnualDividendYield": {
+                    "raw": 0.026960112,
+                    "fmt": "2.70%"
+                },
+                "averageDailyVolume10Day": {
+                    "raw": 84687,
+                    "fmt": "84,687",
+                    "longFmt": "84,687"
+                },
+                "fiftyTwoWeekLowChange": {
+                    "raw": 12.089998,
+                    "fmt": "12.09"
+                },
+                "earningsCallTimestampEnd": {
+                    "raw": 1730408400,
+                    "fmt": "2024-10-31",
+                    "longFmt": "2024-10-31T21:00"
+                },
+                "fiftyTwoWeekHighChangePercent": {
+                    "raw": -0.010070842,
+                    "fmt": "-1.01%"
+                },
+                "typeDisp": "Equity",
+                "trailingPE": {
+                    "raw": 39.107525,
+                    "fmt": "39.11"
+                },
+                "tradeable": false,
+                "currency": "CAD",
+                "sharesOutstanding": {
+                    "raw": 140963004416,
+                    "fmt": "140.963B",
+                    "longFmt": "140,963,004,416"
+                },
+                "regularMarketPreviousClose": {
+                    "raw": 36.35,
+                    "fmt": "36.35"
+                },
+                "fiftyTwoWeekHigh": {
+                    "raw": 36.74,
+                    "fmt": "36.74"
+                },
+                "exchangeTimezoneName": "America/Toronto",
+                "regularMarketChange": {
+                    "raw": 0.020000458,
+                    "fmt": "0.02"
+                },
+                "cryptoTradeable": false,
+                "fiftyDayAverage": {
+                    "raw": 34.0964,
+                    "fmt": "34.10"
+                },
+                "exchangeTimezoneShortName": "EST",
+                "marketState": "PRE",
+                "customPriceAlertConfidence": "HIGH",
+                "regularMarketPrice": {
+                    "raw": 36.37,
+                    "fmt": "36.37"
+                },
+                "earningsTimestamp": {
+                    "raw": 1730406600,
+                    "fmt": "2024-10-31",
+                    "longFmt": "2024-10-31T16:30"
+                },
+                "ask": {
+                    "raw": 36.7,
+                    "fmt": "36.70"
+                },
+                "epsTrailingTwelveMonths": {
+                    "raw": 0.93,
+                    "fmt": "0.93"
+                },
+                "bid": {
+                    "raw": 36.72,
+                    "fmt": "36.72"
+                },
+                "priceToBook": {
+                    "raw": 9.654898,
+                    "fmt": "9.65"
+                },
+                "triggerable": true,
+                "earningsCallTimestampStart": {
+                    "raw": 1730408400,
+                    "fmt": "2024-10-31",
+                    "longFmt": "2024-10-31T21:00"
+                },
+                "longName": "Apple Inc."
+            },
+            {
+                "symbol": "AAPU",
+                "twoHundredDayAverageChangePercent": {
+                    "raw": 0.1731628,
+                    "fmt": "17.32%"
+                },
+                "trailingThreeMonthNavReturns": {
+                    "raw": 4.06725,
+                    "fmt": "4.07%"
+                },
+                "netAssets": {
+                    "raw": 9.1921936E7,
+                    "fmt": "91.922M",
+                    "longFmt": "91,921,936"
+                },
+                "fiftyTwoWeekLowChangePercent": {
+                    "raw": 0.8305665,
+                    "fmt": "83.06%"
+                },
+                "language": "en-US",
+                "dividendYield": {
+                    "raw": 2.16,
+                    "fmt": "2.16%"
+                },
+                "preMarketChangePercent": {
+                    "raw": -0.16004634,
+                    "fmt": "-0.16%"
+                },
+                "regularMarketDayRange": {
+                    "raw": "36.948 - 37.8679",
+                    "fmt": "36.95 - 37.87"
+                },
+                "regularMarketDayHigh": {
+                    "raw": 37.8679,
+                    "fmt": "37.87"
+                },
+                "twoHundredDayAverageChange": {
+                    "raw": 5.5336514,
+                    "fmt": "5.53"
+                },
+                "twoHundredDayAverage": {
+                    "raw": 31.95635,
+                    "fmt": "31.96"
+                },
+                "askSize": {
+                    "raw": 5,
+                    "fmt": "5",
+                    "longFmt": "5"
+                },
+                "fiftyTwoWeekHighChange": {
+                    "raw": -5.6089973,
+                    "fmt": "-5.61"
+                },
+                "fiftyTwoWeekRange": {
+                    "raw": "20.48 - 43.099",
+                    "fmt": "20.48 - 43.10"
+                },
+                "fiftyDayAverageChange": {
+                    "raw": 0.32580185,
+                    "fmt": "0.33"
+                },
+                "exchangeDataDelayedBy": 0,
+                "averageDailyVolume3Month": {
+                    "raw": 537661,
+                    "fmt": "537,661",
+                    "longFmt": "537,661"
+                },
+                "firstTradeDateMilliseconds": 1660051800000,
+                "fiftyTwoWeekChangePercent": {
+                    "raw": 31.775045,
+                    "fmt": "31.78%"
+                },
+                "trailingAnnualDividendRate": {
+                    "raw": 0.0,
+                    "fmt": "0.00"
+                },
+                "hasPrePostMarketData": true,
+                "fiftyTwoWeekLow": {
+                    "raw": 20.48,
+                    "fmt": "20.48"
+                },
+                "market": "us_market",
+                "regularMarketVolume": {
+                    "raw": 397651,
+                    "fmt": "397,651",
+                    "longFmt": "397,651"
+                },
+                "quoteSourceName": "Nasdaq Real Time Price",
+                "messageBoardId": "finmb_1793225848",
+                "priceHint": 2,
+                "ytdReturn": {
+                    "raw": 43.85168,
+                    "fmt": "43.85%"
+                },
+                "sourceInterval": 15,
+                "exchange": "NGM",
+                "regularMarketDayLow": {
+                    "raw": 36.948,
+                    "fmt": "36.95"
+                },
+                "shortName": "Direxion Daily AAPL Bull 2X Sha",
+                "region": "US",
+                "fiftyDayAverageChangePercent": {
+                    "raw": 0.008766551,
+                    "fmt": "0.88%"
+                },
+                "preMarketTime": {
+                    "raw": 1734354492,
+                    "fmt": "8:08AM EST"
+                },
+                "fullExchangeName": "NasdaqGM",
+                "netExpenseRatio": {
+                    "raw": 1.04,
+                    "fmt": "1.04%"
+                },
+                "gmtOffSetMilliseconds": -18000000,
+                "regularMarketOpen": {
+                    "raw": 37.5,
+                    "fmt": "37.50"
+                },
+                "regularMarketTime": {
+                    "raw": 1734123602,
+                    "fmt": "4:00PM EST"
+                },
+                "regularMarketChangePercent": {
+                    "raw": 0.0,
+                    "fmt": "0.00%"
+                },
+                "quoteType": "ETF",
+                "trailingAnnualDividendYield": {
+                    "raw": 0.0,
+                    "fmt": "0.00%"
+                },
+                "averageDailyVolume10Day": {
+                    "raw": 520850,
+                    "fmt": "520,850",
+                    "longFmt": "520,850"
+                },
+                "fiftyTwoWeekLowChange": {
+                    "raw": 17.010002,
+                    "fmt": "17.01"
+                },
+                "fiftyTwoWeekHighChangePercent": {
+                    "raw": -0.13014217,
+                    "fmt": "-13.01%"
+                },
+                "typeDisp": "ETF",
+                "trailingPE": {
+                    "raw": 41.14355,
+                    "fmt": "41.14"
+                },
+                "tradeable": false,
+                "currency": "USD",
+                "preMarketPrice": {
+                    "raw": 37.43,
+                    "fmt": "37.43"
+                },
+                "regularMarketPreviousClose": {
+                    "raw": 37.49,
+                    "fmt": "37.49"
+                },
+                "fiftyTwoWeekHigh": {
+                    "raw": 43.099,
+                    "fmt": "43.10"
+                },
+                "trailingThreeMonthReturns": {
+                    "raw": 4.06725,
+                    "fmt": "4.07%"
+                },
+                "exchangeTimezoneName": "America/New_York",
+                "bidSize": {
+                    "raw": 2,
+                    "fmt": "2",
+                    "longFmt": "2"
+                },
+                "regularMarketChange": {
+                    "raw": 0.0,
+                    "fmt": "0.00"
+                },
+                "cryptoTradeable": false,
+                "fiftyDayAverage": {
+                    "raw": 37.1642,
+                    "fmt": "37.16"
+                },
+                "exchangeTimezoneShortName": "EST",
+                "marketState": "PRE",
+                "customPriceAlertConfidence": "HIGH",
+                "regularMarketPrice": {
+                    "raw": 37.49,
+                    "fmt": "37.49"
+                },
+                "preMarketChange": {
+                    "raw": -0.060001373,
+                    "fmt": "-0.06"
+                },
+                "ask": {
+                    "raw": 37.63,
+                    "fmt": "37.63"
+                },
+                "epsTrailingTwelveMonths": {
+                    "raw": 0.9112,
+                    "fmt": "0.91"
+                },
+                "bid": {
+                    "raw": 37.44,
+                    "fmt": "37.44"
+                },
+                "triggerable": true,
+                "longName": "Direxion Daily AAPL Bull 2X Shares"
+            },
+            {
+                "symbol": "AAPL34.SA",
+                "twoHundredDayAverageChangePercent": {
+                    "raw": 0.3036114,
+                    "fmt": "30.36%"
+                },
+                "fiftyTwoWeekLowChangePercent": {
+                    "raw": 0.8047551,
+                    "fmt": "80.48%"
+                },
+                "isEarningsDateEstimate": true,
+                "language": "en-US",
+                "dividendYield": {
+                    "raw": 0.27,
+                    "fmt": "0.27%"
+                },
+                "regularMarketDayRange": {
+                    "raw": "75.15 - 75.15",
+                    "fmt": "75.15 - 75.15"
+                },
+                "earningsTimestampEnd": {
+                    "raw": 1738616400,
+                    "fmt": "2025-02-03",
+                    "longFmt": "2025-02-03T18:00"
+                },
+                "regularMarketDayHigh": {
+                    "raw": 75.15,
+                    "fmt": "75.15"
+                },
+                "twoHundredDayAverageChange": {
+                    "raw": 17.502453,
+                    "fmt": "17.50"
+                },
+                "twoHundredDayAverage": {
+                    "raw": 57.64755,
+                    "fmt": "57.65"
+                },
+                "askSize": {
+                    "raw": 0,
+                    "fmt": "0",
+                    "longFmt": "0"
+                },
+                "bookValue": {
+                    "raw": 3.767,
+                    "fmt": "3.77"
+                },
+                "marketCap": {
+                    "raw": 22719047401472,
+                    "fmt": "22.719T",
+                    "longFmt": "22,719,047,401,472"
+                },
+                "fiftyTwoWeekHighChange": {
+                    "raw": -0.6199951,
+                    "fmt": "-0.62"
+                },
+                "fiftyTwoWeekRange": {
+                    "raw": "41.64 - 75.77",
+                    "fmt": "41.64 - 75.77"
+                },
+                "fiftyDayAverageChange": {
+                    "raw": 7.6828003,
+                    "fmt": "7.68"
+                },
+                "exchangeDataDelayedBy": 15,
+                "averageDailyVolume3Month": {
+                    "raw": 196640,
+                    "fmt": "196,640",
+                    "longFmt": "196,640"
+                },
+                "firstTradeDateMilliseconds": 1329912000000,
+                "dividendRate": {
+                    "raw": 0.2,
+                    "fmt": "0.20"
+                },
+                "fiftyTwoWeekChangePercent": {
+                    "raw": 55.912865,
+                    "fmt": "55.91%"
+                },
+                "trailingAnnualDividendRate": {
+                    "raw": 0.98,
+                    "fmt": "0.98"
+                },
+                "hasPrePostMarketData": false,
+                "fiftyTwoWeekLow": {
+                    "raw": 41.64,
+                    "fmt": "41.64"
+                },
+                "market": "br_market",
+                "regularMarketVolume": {
+                    "raw": 0,
+                    "fmt": "0",
+                    "longFmt": "0"
+                },
+                "quoteSourceName": "Delayed Quote",
+                "messageBoardId": "finmb_24937",
+                "priceHint": 2,
+                "sourceInterval": 15,
+                "exchange": "SAO",
+                "regularMarketDayLow": {
+                    "raw": 75.15,
+                    "fmt": "75.15"
+                },
+                "shortName": "APPLE       DRN",
+                "region": "US",
+                "fiftyDayAverageChangePercent": {
+                    "raw": 0.1138746,
+                    "fmt": "11.39%"
+                },
+                "fullExchangeName": "São Paulo",
+                "earningsTimestampStart": {
+                    "raw": 1738270800,
+                    "fmt": "2025-01-30",
+                    "longFmt": "2025-01-30T18:00"
+                },
+                "financialCurrency": "USD",
+                "gmtOffSetMilliseconds": -10800000,
+                "regularMarketOpen": {
+                    "raw": 0.0,
+                    "fmt": "0.00"
+                },
+                "regularMarketTime": {
+                    "raw": 1734123900,
+                    "fmt": "6:05PM BRT"
+                },
+                "regularMarketChangePercent": {
+                    "raw": 0.0,
+                    "fmt": "0.00%"
+                },
+                "quoteType": "EQUITY",
+                "trailingAnnualDividendYield": {
+                    "raw": 0.013040585,
+                    "fmt": "1.30%"
+                },
+                "averageDailyVolume10Day": {
+                    "raw": 260715,
+                    "fmt": "260,715",
+                    "longFmt": "260,715"
+                },
+                "fiftyTwoWeekLowChange": {
+                    "raw": 33.510002,
+                    "fmt": "33.51"
+                },
+                "earningsCallTimestampEnd": {
+                    "raw": 1730408400,
+                    "fmt": "2024-10-31",
+                    "longFmt": "2024-10-31T21:00"
+                },
+                "fiftyTwoWeekHighChangePercent": {
+                    "raw": -0.008182594,
+                    "fmt": "-0.82%"
+                },
+                "typeDisp": "Equity",
+                "trailingPE": {
+                    "raw": 41.065575,
+                    "fmt": "41.07"
+                },
+                "tradeable": false,
+                "currency": "BRL",
+                "sharesOutstanding": {
+                    "raw": 302315995136,
+                    "fmt": "302.316B",
+                    "longFmt": "302,315,995,136"
+                },
+                "regularMarketPreviousClose": {
+                    "raw": 75.15,
+                    "fmt": "75.15"
+                },
+                "fiftyTwoWeekHigh": {
+                    "raw": 75.77,
+                    "fmt": "75.77"
+                },
+                "exchangeTimezoneName": "America/Sao_Paulo",
+                "bidSize": {
+                    "raw": 0,
+                    "fmt": "0",
+                    "longFmt": "0"
+                },
+                "regularMarketChange": {
+                    "raw": 0.0,
+                    "fmt": "0.00"
+                },
+                "cryptoTradeable": false,
+                "fiftyDayAverage": {
+                    "raw": 67.4672,
+                    "fmt": "67.47"
+                },
+                "exchangeTimezoneShortName": "BRT",
+                "marketState": "REGULAR",
+                "customPriceAlertConfidence": "LOW",
+                "regularMarketPrice": {
+                    "raw": 75.15,
+                    "fmt": "75.15"
+                },
+                "earningsTimestamp": {
+                    "raw": 1730406600,
+                    "fmt": "2024-10-31",
+                    "longFmt": "2024-10-31T17:30"
+                },
+                "ask": {
+                    "raw": 63.75,
+                    "fmt": "63.75"
+                },
+                "epsTrailingTwelveMonths": {
+                    "raw": 1.83,
+                    "fmt": "1.83"
+                },
+                "bid": {
+                    "raw": 75.91,
+                    "fmt": "75.91"
+                },
+                "priceToBook": {
+                    "raw": 19.949562,
+                    "fmt": "19.95"
+                },
+                "triggerable": false,
+                "earningsCallTimestampStart": {
+                    "raw": 1730408400,
+                    "fmt": "2024-10-31",
+                    "longFmt": "2024-10-31T21:00"
+                },
+                "longName": "Apple Inc."
+            },
+            {
+                "fullExchangeName": "Nasdaq",
+                "symbol": "AAPLPXX",
+                "twoHundredDayAverageChangePercent": {
+                    "raw": 0.039163638,
+                    "fmt": "3.92%"
+                },
+                "fiftyTwoWeekLowChangePercent": {
+                    "raw": 0.0908827,
+                    "fmt": "9.09%"
+                },
+                "gmtOffSetMilliseconds": -18000000,
+                "language": "en-US",
+                "regularMarketTime": {
+                    "raw": 1734138126,
+                    "fmt": "8:02PM EST"
+                },
+                "regularMarketChangePercent": {
+                    "raw": 0.026638253,
+                    "fmt": "0.03%"
+                },
+                "quoteType": "MUTUALFUND",
+                "fiftyTwoWeekLowChange": {
+                    "raw": 9.385002,
+                    "fmt": "9.39"
+                },
+                "fiftyTwoWeekHighChangePercent": {
+                    "raw": 9.774356E-4,
+                    "fmt": "0.10%"
+                },
+                "typeDisp": "Fund",
+                "tradeable": false,
+                "twoHundredDayAverageChange": {
+                    "raw": 4.245514,
+                    "fmt": "4.25"
+                },
+                "currency": "USD",
+                "regularMarketPreviousClose": {
+                    "raw": 112.62,
+                    "fmt": "112.62"
+                },
+                "fiftyTwoWeekHigh": {
+                    "raw": 112.54,
+                    "fmt": "112.54"
+                },
+                "twoHundredDayAverage": {
+                    "raw": 108.40449,
+                    "fmt": "108.40"
+                },
+                "exchangeTimezoneName": "America/New_York",
+                "fiftyTwoWeekHighChange": {
+                    "raw": 0.11000061,
+                    "fmt": "0.11"
+                },
+                "regularMarketChange": {
+                    "raw": 0.03,
+                    "fmt": "0.03"
+                },
+                "fiftyTwoWeekRange": {
+                    "raw": "103.265 - 112.54",
+                    "fmt": "103.26 - 112.54"
+                },
+                "fiftyDayAverageChange": {
+                    "raw": 0.9792023,
+                    "fmt": "0.98"
+                },
+                "cryptoTradeable": false,
+                "exchangeDataDelayedBy": 0,
+                "firstTradeDateMilliseconds": 1692365400000,
+                "fiftyDayAverage": {
+                    "raw": 111.6708,
+                    "fmt": "111.67"
+                },
+                "exchangeTimezoneShortName": "EST",
+                "fiftyTwoWeekChangePercent": {
+                    "raw": 8.981741,
+                    "fmt": "8.98%"
+                },
+                "hasPrePostMarketData": false,
+                "marketState": "PRE",
+                "customPriceAlertConfidence": "NONE",
+                "fiftyTwoWeekLow": {
+                    "raw": 103.265,
+                    "fmt": "103.26"
+                },
+                "regularMarketPrice": {
+                    "raw": 112.65,
+                    "fmt": "112.65"
+                },
+                "market": "us_market",
+                "quoteSourceName": "Delayed Quote",
+                "priceHint": 2,
+                "sourceInterval": 15,
+                "exchange": "NAS",
+                "region": "US",
+                "fiftyDayAverageChangePercent": {
+                    "raw": 0.008768651,
+                    "fmt": "0.88%"
+                },
+                "triggerable": false,
+                "longName": "Goldman Sachs Bank USA Capped Point to Point CD AAPLPXX"
+            },
+            {
+                "symbol": "AAPB",
+                "twoHundredDayAverageChangePercent": {
+                    "raw": 0.33025968,
+                    "fmt": "33.03%"
+                },
+                "trailingThreeMonthNavReturns": {
+                    "raw": 4.54235,
+                    "fmt": "4.54%"
+                },
+                "netAssets": {
+                    "raw": 2.2041492E7,
+                    "fmt": "22.041M",
+                    "longFmt": "22,041,492"
+                },
+                "fiftyTwoWeekLowChangePercent": {
+                    "raw": 1.0942804,
+                    "fmt": "109.43%"
+                },
+                "language": "en-US",
+                "dividendYield": {
+                    "raw": 14.07,
+                    "fmt": "14.07%"
+                },
+                "preMarketChangePercent": {
+                    "raw": -0.090032354,
+                    "fmt": "-0.09%"
+                },
+                "regularMarketDayRange": {
+                    "raw": "32.8787 - 33.65",
+                    "fmt": "32.88 - 33.65"
+                },
+                "regularMarketDayHigh": {
+                    "raw": 33.65,
+                    "fmt": "33.65"
+                },
+                "twoHundredDayAverageChange": {
+                    "raw": 8.272259,
+                    "fmt": "8.27"
+                },
+                "twoHundredDayAverage": {
+                    "raw": 25.04774,
+                    "fmt": "25.05"
+                },
+                "askSize": {
+                    "raw": 2,
+                    "fmt": "2",
+                    "longFmt": "2"
+                },
+                "fiftyTwoWeekHighChange": {
+                    "raw": -0.7200012,
+                    "fmt": "-0.72"
+                },
+                "fiftyTwoWeekRange": {
+                    "raw": "15.91 - 34.04",
+                    "fmt": "15.91 - 34.04"
+                },
+                "fiftyDayAverageChange": {
+                    "raw": 3.8107395,
+                    "fmt": "3.81"
+                },
+                "exchangeDataDelayedBy": 0,
+                "averageDailyVolume3Month": {
+                    "raw": 88046,
+                    "fmt": "88,046",
+                    "longFmt": "88,046"
+                },
+                "firstTradeDateMilliseconds": 1660138200000,
+                "fiftyTwoWeekChangePercent": {
+                    "raw": 18.281864,
+                    "fmt": "18.28%"
+                },
+                "trailingAnnualDividendRate": {
+                    "raw": 0.0,
+                    "fmt": "0.00"
+                },
+                "hasPrePostMarketData": true,
+                "fiftyTwoWeekLow": {
+                    "raw": 15.91,
+                    "fmt": "15.91"
+                },
+                "market": "us_market",
+                "regularMarketVolume": {
+                    "raw": 46366,
+                    "fmt": "46,366",
+                    "longFmt": "46,366"
+                },
+                "quoteSourceName": "Nasdaq Real Time Price",
+                "messageBoardId": "finmb_1780713212",
+                "priceHint": 2,
+                "ytdReturn": {
+                    "raw": 33.37691,
+                    "fmt": "33.38%"
+                },
+                "sourceInterval": 15,
+                "exchange": "NGM",
+                "regularMarketDayLow": {
+                    "raw": 32.8787,
+                    "fmt": "32.88"
+                },
+                "shortName": "GraniteShares 2x Long AAPL Dail",
+                "region": "US",
+                "fiftyDayAverageChangePercent": {
+                    "raw": 0.12913707,
+                    "fmt": "12.91%"
+                },
+                "preMarketTime": {
+                    "raw": 1734354476,
+                    "fmt": "8:07AM EST"
+                },
+                "fullExchangeName": "NasdaqGM",
+                "netExpenseRatio": {
+                    "raw": 1.15,
+                    "fmt": "1.15%"
+                },
+                "gmtOffSetMilliseconds": -18000000,
+                "regularMarketOpen": {
+                    "raw": 33.26,
+                    "fmt": "33.26"
+                },
+                "regularMarketTime": {
+                    "raw": 1734123602,
+                    "fmt": "4:00PM EST"
+                },
+                "regularMarketChangePercent": {
+                    "raw": 0.030015973,
+                    "fmt": "0.03%"
+                },
+                "quoteType": "ETF",
+                "trailingAnnualDividendYield": {
+                    "raw": 0.0,
+                    "fmt": "0.00%"
+                },
+                "averageDailyVolume10Day": {
+                    "raw": 61660,
+                    "fmt": "61,660",
+                    "longFmt": "61,660"
+                },
+                "fiftyTwoWeekLowChange": {
+                    "raw": 17.41,
+                    "fmt": "17.41"
+                },
+                "fiftyTwoWeekHighChangePercent": {
+                    "raw": -0.02115162,
+                    "fmt": "-2.12%"
+                },
+                "typeDisp": "ETF",
+                "tradeable": false,
+                "currency": "USD",
+                "preMarketPrice": {
+                    "raw": 33.29,
+                    "fmt": "33.29"
+                },
+                "regularMarketPreviousClose": {
+                    "raw": 33.31,
+                    "fmt": "33.31"
+                },
+                "fiftyTwoWeekHigh": {
+                    "raw": 34.04,
+                    "fmt": "34.04"
+                },
+                "trailingThreeMonthReturns": {
+                    "raw": 4.54235,
+                    "fmt": "4.54%"
+                },
+                "exchangeTimezoneName": "America/New_York",
+                "bidSize": {
+                    "raw": 2,
+                    "fmt": "2",
+                    "longFmt": "2"
+                },
+                "regularMarketChange": {
+                    "raw": 0.0099983215,
+                    "fmt": "0.01"
+                },
+                "cryptoTradeable": false,
+                "fiftyDayAverage": {
+                    "raw": 29.50926,
+                    "fmt": "29.51"
+                },
+                "exchangeTimezoneShortName": "EST",
+                "marketState": "PRE",
+                "customPriceAlertConfidence": "HIGH",
+                "regularMarketPrice": {
+                    "raw": 33.32,
+                    "fmt": "33.32"
+                },
+                "preMarketChange": {
+                    "raw": -0.02999878,
+                    "fmt": "-0.03"
+                },
+                "ask": {
+                    "raw": 33.38,
+                    "fmt": "33.38"
+                },
+                "bid": {
+                    "raw": 33.26,
+                    "fmt": "33.26"
+                },
+                "triggerable": true,
+                "longName": "GraniteShares 2x Long AAPL Daily ETF"
+            },
+            {
+                "symbol": "APLY.NE",
+                "twoHundredDayAverageChangePercent": {
+                    "raw": 0.16250786,
+                    "fmt": "16.25%"
+                },
+                "trailingThreeMonthNavReturns": {
+                    "raw": 4.39153,
+                    "fmt": "4.39%"
+                },
+                "netAssets": {
+                    "raw": 2.4211512E7,
+                    "fmt": "24.212M",
+                    "longFmt": "24,211,512"
+                },
+                "fiftyTwoWeekLowChangePercent": {
+                    "raw": 0.47839922,
+                    "fmt": "47.84%"
+                },
+                "language": "en-US",
+                "dividendYield": {
+                    "raw": 6.4,
+                    "fmt": "6.40%"
+                },
+                "regularMarketDayRange": {
+                    "raw": "32.51 - 32.81",
+                    "fmt": "32.51 - 32.81"
+                },
+                "regularMarketDayHigh": {
+                    "raw": 32.81,
+                    "fmt": "32.81"
+                },
+                "twoHundredDayAverageChange": {
+                    "raw": 4.5445976,
+                    "fmt": "4.54"
+                },
+                "twoHundredDayAverage": {
+                    "raw": 27.9654,
+                    "fmt": "27.97"
+                },
+                "fiftyTwoWeekHighChange": {
+                    "raw": -0.49000168,
+                    "fmt": "-0.49"
+                },
+                "fiftyTwoWeekRange": {
+                    "raw": "21.99 - 33.0",
+                    "fmt": "21.99 - 33.00"
+                },
+                "fiftyDayAverageChange": {
+                    "raw": 1.8837986,
+                    "fmt": "1.88"
+                },
+                "exchangeDataDelayedBy": 0,
+                "averageDailyVolume3Month": {
+                    "raw": 8845,
+                    "fmt": "8,845",
+                    "longFmt": "8,845"
+                },
+                "firstTradeDateMilliseconds": 1671460200000,
+                "fiftyTwoWeekChangePercent": {
+                    "raw": 17.750633,
+                    "fmt": "17.75%"
+                },
+                "hasPrePostMarketData": false,
+                "fiftyTwoWeekLow": {
+                    "raw": 21.99,
+                    "fmt": "21.99"
+                },
+                "market": "ca_market",
+                "regularMarketVolume": {
+                    "raw": 2659,
+                    "fmt": "2,659",
+                    "longFmt": "2,659"
+                },
+                "quoteSourceName": "Delayed Quote",
+                "messageBoardId": "finmb_1814672481",
+                "priceHint": 2,
+                "ytdReturn": {
+                    "raw": 23.6723,
+                    "fmt": "23.67%"
+                },
+                "sourceInterval": 15,
+                "exchange": "NEO",
+                "regularMarketDayLow": {
+                    "raw": 32.51,
+                    "fmt": "32.51"
+                },
+                "shortName": "APPLE (AAPL) YIELD SHARES PURPO",
+                "region": "US",
+                "fiftyDayAverageChangePercent": {
+                    "raw": 0.061509382,
+                    "fmt": "6.15%"
+                },
+                "fullExchangeName": "Cboe CA",
+                "gmtOffSetMilliseconds": -18000000,
+                "regularMarketOpen": {
+                    "raw": 32.81,
+                    "fmt": "32.81"
+                },
+                "regularMarketTime": {
+                    "raw": 1734110180,
+                    "fmt": "12:16PM EST"
+                },
+                "regularMarketChangePercent": {
+                    "raw": -0.76312584,
+                    "fmt": "-0.76%"
+                },
+                "quoteType": "ETF",
+                "averageDailyVolume10Day": {
+                    "raw": 4345,
+                    "fmt": "4,345",
+                    "longFmt": "4,345"
+                },
+                "fiftyTwoWeekLowChange": {
+                    "raw": 10.519999,
+                    "fmt": "10.52"
+                },
+                "fiftyTwoWeekHighChangePercent": {
+                    "raw": -0.014848536,
+                    "fmt": "-1.48%"
+                },
+                "typeDisp": "ETF",
+                "tradeable": false,
+                "currency": "CAD",
+                "regularMarketPreviousClose": {
+                    "raw": 32.76,
+                    "fmt": "32.76"
+                },
+                "fiftyTwoWeekHigh": {
+                    "raw": 33.0,
+                    "fmt": "33.00"
+                },
+                "trailingThreeMonthReturns": {
+                    "raw": 4.39153,
+                    "fmt": "4.39%"
+                },
+                "exchangeTimezoneName": "America/Toronto",
+                "regularMarketChange": {
+                    "raw": -0.25,
+                    "fmt": "-0.25"
+                },
+                "cryptoTradeable": false,
+                "fiftyDayAverage": {
+                    "raw": 30.6262,
+                    "fmt": "30.63"
+                },
+                "exchangeTimezoneShortName": "EST",
+                "marketState": "PRE",
+                "customPriceAlertConfidence": "HIGH",
+                "regularMarketPrice": {
+                    "raw": 32.51,
+                    "fmt": "32.51"
+                },
+                "ask": {
+                    "raw": 37.59,
+                    "fmt": "37.59"
+                },
+                "bid": {
+                    "raw": 30.0,
+                    "fmt": "30.00"
+                },
+                "triggerable": true,
+                "longName": "Apple (AAPL) Yield Shares Purpose ETF"
+            },
+            {
+                "symbol": "AAPD",
+                "twoHundredDayAverageChangePercent": {
+                    "raw": -0.17049253,
+                    "fmt": "-17.05%"
+                },
+                "trailingThreeMonthNavReturns": {
+                    "raw": -2.80914,
+                    "fmt": "-2.81%"
+                },
+                "netAssets": {
+                    "raw": 2.2720122E7,
+                    "fmt": "22.72M",
+                    "longFmt": "22,720,122"
+                },
+                "fiftyTwoWeekLowChangePercent": {
+                    "raw": 0.011703531,
+                    "fmt": "1.17%"
+                },
+                "language": "en-US",
+                "dividendYield": {
+                    "raw": 4.92,
+                    "fmt": "4.92%"
+                },
+                "preMarketChangePercent": {
+                    "raw": 0.064262696,
+                    "fmt": "0.06%"
+                },
+                "regularMarketDayRange": {
+                    "raw": "15.485 - 15.67",
+                    "fmt": "15.48 - 15.67"
+                },
+                "regularMarketDayHigh": {
+                    "raw": 15.67,
+                    "fmt": "15.67"
+                },
+                "twoHundredDayAverageChange": {
+                    "raw": -3.1981192,
+                    "fmt": "-3.20"
+                },
+                "twoHundredDayAverage": {
+                    "raw": 18.75812,
+                    "fmt": "18.76"
+                },
+                "askSize": {
+                    "raw": 2,
+                    "fmt": "2",
+                    "longFmt": "2"
+                },
+                "fiftyTwoWeekHighChange": {
+                    "raw": -8.159999,
+                    "fmt": "-8.16"
+                },
+                "fiftyTwoWeekRange": {
+                    "raw": "15.38 - 23.72",
+                    "fmt": "15.38 - 23.72"
+                },
+                "fiftyDayAverageChange": {
+                    "raw": -0.99649906,
+                    "fmt": "-1.00"
+                },
+                "exchangeDataDelayedBy": 0,
+                "averageDailyVolume3Month": {
+                    "raw": 261177,
+                    "fmt": "261,177",
+                    "longFmt": "261,177"
+                },
+                "firstTradeDateMilliseconds": 1660138200000,
+                "fiftyTwoWeekChangePercent": {
+                    "raw": -22.355288,
+                    "fmt": "-22.36%"
+                },
+                "trailingAnnualDividendRate": {
+                    "raw": 0.0,
+                    "fmt": "0.00"
+                },
+                "hasPrePostMarketData": true,
+                "fiftyTwoWeekLow": {
+                    "raw": 15.38,
+                    "fmt": "15.38"
+                },
+                "market": "us_market",
+                "regularMarketVolume": {
+                    "raw": 208949,
+                    "fmt": "208,949",
+                    "longFmt": "208,949"
+                },
+                "quoteSourceName": "Nasdaq Real Time Price",
+                "messageBoardId": "finmb_1791146308",
+                "priceHint": 2,
+                "ytdReturn": {
+                    "raw": -17.31356,
+                    "fmt": "-17.31%"
+                },
+                "sourceInterval": 15,
+                "exchange": "NGM",
+                "regularMarketDayLow": {
+                    "raw": 15.485,
+                    "fmt": "15.48"
+                },
+                "shortName": "Direxion Daily AAPL Bear 1X Sha",
+                "region": "US",
+                "fiftyDayAverageChangePercent": {
+                    "raw": -0.060187787,
+                    "fmt": "-6.02%"
+                },
+                "preMarketTime": {
+                    "raw": 1734354444,
+                    "fmt": "8:07AM EST"
+                },
+                "fullExchangeName": "NasdaqGM",
+                "netExpenseRatio": {
+                    "raw": 1.06,
+                    "fmt": "1.06%"
+                },
+                "gmtOffSetMilliseconds": -18000000,
+                "regularMarketOpen": {
+                    "raw": 15.55,
+                    "fmt": "15.55"
+                },
+                "regularMarketTime": {
+                    "raw": 1734123600,
+                    "fmt": "4:00PM EST"
+                },
+                "regularMarketChangePercent": {
+                    "raw": 0.0,
+                    "fmt": "0.00%"
+                },
+                "quoteType": "ETF",
+                "trailingAnnualDividendYield": {
+                    "raw": 0.0,
+                    "fmt": "0.00%"
+                },
+                "averageDailyVolume10Day": {
+                    "raw": 239000,
+                    "fmt": "239,000",
+                    "longFmt": "239,000"
+                },
+                "fiftyTwoWeekLowChange": {
+                    "raw": 0.1800003,
+                    "fmt": "0.18"
+                },
+                "fiftyTwoWeekHighChangePercent": {
+                    "raw": -0.34401345,
+                    "fmt": "-34.40%"
+                },
+                "typeDisp": "ETF",
+                "tradeable": false,
+                "currency": "USD",
+                "preMarketPrice": {
+                    "raw": 15.57,
+                    "fmt": "15.57"
+                },
+                "regularMarketPreviousClose": {
+                    "raw": 15.56,
+                    "fmt": "15.56"
+                },
+                "fiftyTwoWeekHigh": {
+                    "raw": 23.72,
+                    "fmt": "23.72"
+                },
+                "trailingThreeMonthReturns": {
+                    "raw": -2.80914,
+                    "fmt": "-2.81%"
+                },
+                "exchangeTimezoneName": "America/New_York",
+                "bidSize": {
+                    "raw": 2,
+                    "fmt": "2",
+                    "longFmt": "2"
+                },
+                "regularMarketChange": {
+                    "raw": 0.0,
+                    "fmt": "0.00"
+                },
+                "cryptoTradeable": false,
+                "fiftyDayAverage": {
+                    "raw": 16.5565,
+                    "fmt": "16.56"
+                },
+                "exchangeTimezoneShortName": "EST",
+                "marketState": "PRE",
+                "customPriceAlertConfidence": "HIGH",
+                "regularMarketPrice": {
+                    "raw": 15.56,
+                    "fmt": "15.56"
+                },
+                "preMarketChange": {
+                    "raw": 0.009999275,
+                    "fmt": "0.01"
+                },
+                "ask": {
+                    "raw": 15.58,
+                    "fmt": "15.58"
+                },
+                "bid": {
+                    "raw": 15.54,
+                    "fmt": "15.54"
+                },
+                "triggerable": true,
+                "longName": "Direxion Daily AAPL Bear 1X Shares"
+            },
+            {
+                "symbol": "AAPS.L",
+                "twoHundredDayAverageChangePercent": {
+                    "raw": -0.49868706,
+                    "fmt": "-49.87%"
+                },
+                "trailingThreeMonthNavReturns": {
+                    "raw": -13.5444,
+                    "fmt": "-13.54%"
+                },
+                "netAssets": {
+                    "raw": 596826.0,
+                    "fmt": "596,826",
+                    "longFmt": "596,826"
+                },
+                "fiftyTwoWeekLowChangePercent": {
+                    "raw": 0.015201382,
+                    "fmt": "1.52%"
+                },
+                "language": "en-US",
+                "dividendYield": {
+                    "raw": 0.0,
+                    "fmt": "0.00%"
+                },
+                "regularMarketDayRange": {
+                    "raw": "0.8944 - 0.897",
+                    "fmt": "0.89 - 0.90"
+                },
+                "regularMarketDayHigh": {
+                    "raw": 0.897,
+                    "fmt": "0.8970"
+                },
+                "twoHundredDayAverageChange": {
+                    "raw": -0.8902125,
+                    "fmt": "-0.89"
+                },
+                "twoHundredDayAverage": {
+                    "raw": 1.7851125,
+                    "fmt": "1.79"
+                },
+                "fiftyTwoWeekHighChange": {
+                    "raw": -2.6848998,
+                    "fmt": "-2.68"
+                },
+                "fiftyTwoWeekRange": {
+                    "raw": "0.8815 - 3.5798",
+                    "fmt": "0.88 - 3.58"
+                },
+                "fiftyDayAverageChange": {
+                    "raw": -0.213741,
+                    "fmt": "-0.21"
+                },
+                "exchangeDataDelayedBy": 15,
+                "averageDailyVolume3Month": {
+                    "raw": 19548,
+                    "fmt": "19,548",
+                    "longFmt": "19,548"
+                },
+                "firstTradeDateMilliseconds": 1654498800000,
+                "fiftyTwoWeekChangePercent": {
+                    "raw": -60.062756,
+                    "fmt": "-60.06%"
+                },
+                "hasPrePostMarketData": false,
+                "fiftyTwoWeekLow": {
+                    "raw": 0.8815,
+                    "fmt": "0.8815"
+                },
+                "market": "gb_market",
+                "regularMarketVolume": {
+                    "raw": 363,
+                    "fmt": "363",
+                    "longFmt": "363"
+                },
+                "quoteSourceName": "Delayed Quote",
+                "messageBoardId": "finmb_1781066287",
+                "priceHint": 4,
+                "ytdReturn": {
+                    "raw": -56.64302,
+                    "fmt": "-56.64%"
+                },
+                "sourceInterval": 15,
+                "exchange": "LSE",
+                "regularMarketDayLow": {
+                    "raw": 0.8944,
+                    "fmt": "0.8944"
+                },
+                "shortName": "LEVERAGE SHARES PUBLIC LIMITED ",
+                "region": "US",
+                "fiftyDayAverageChangePercent": {
+                    "raw": -0.1927955,
+                    "fmt": "-19.28%"
+                },
+                "fullExchangeName": "LSE",
+                "gmtOffSetMilliseconds": 0,
+                "regularMarketOpen": {
+                    "raw": 0.8946,
+                    "fmt": "0.8946"
+                },
+                "regularMarketTime": {
+                    "raw": 1734352095,
+                    "fmt": "12:28PM GMT"
+                },
+                "regularMarketChangePercent": {
+                    "raw": -2.346136,
+                    "fmt": "-2.35%"
+                },
+                "quoteType": "ETF",
+                "averageDailyVolume10Day": {
+                    "raw": 23827,
+                    "fmt": "23,827",
+                    "longFmt": "23,827"
+                },
+                "fiftyTwoWeekLowChange": {
+                    "raw": 0.013400018,
+                    "fmt": "0.01"
+                },
+                "fiftyTwoWeekHighChangePercent": {
+                    "raw": -0.75001395,
+                    "fmt": "-75.00%"
+                },
+                "typeDisp": "ETF",
+                "tradeable": false,
+                "currency": "USD",
+                "regularMarketPreviousClose": {
+                    "raw": 0.9164,
+                    "fmt": "0.9164"
+                },
+                "fiftyTwoWeekHigh": {
+                    "raw": 3.5798,
+                    "fmt": "3.5798"
+                },
+                "trailingThreeMonthReturns": {
+                    "raw": -13.5444,
+                    "fmt": "-13.54%"
+                },
+                "exchangeTimezoneName": "Europe/London",
+                "regularMarketChange": {
+                    "raw": -0.021499991,
+                    "fmt": "-0.0215"
+                },
+                "cryptoTradeable": false,
+                "fiftyDayAverage": {
+                    "raw": 1.108641,
+                    "fmt": "1.11"
+                },
+                "exchangeTimezoneShortName": "GMT",
+                "marketState": "REGULAR",
+                "customPriceAlertConfidence": "LOW",
+                "regularMarketPrice": {
+                    "raw": 0.8949,
+                    "fmt": "0.8949"
+                },
+                "ask": {
+                    "raw": 0.8974,
+                    "fmt": "0.90"
+                },
+                "bid": {
+                    "raw": 0.893,
+                    "fmt": "0.89"
+                },
+                "triggerable": false,
+                "longName": "Leverage Shares -3x Short Apple (AAPL) ETP Securities"
+            },
+            {
+                "fullExchangeName": "Nasdaq",
+                "symbol": "AAPLWXX",
+                "twoHundredDayAverageChangePercent": {
+                    "raw": 0.14573589,
+                    "fmt": "14.57%"
+                },
+                "fiftyTwoWeekLowChangePercent": {
+                    "raw": 0.3774863,
+                    "fmt": "37.75%"
+                },
+                "gmtOffSetMilliseconds": -18000000,
+                "language": "en-US",
+                "regularMarketTime": {
+                    "raw": 1734138126,
+                    "fmt": "8:02PM EST"
+                },
+                "regularMarketChangePercent": {
+                    "raw": 0.15358035,
+                    "fmt": "0.15%"
+                },
+                "quoteType": "MUTUALFUND",
+                "fiftyTwoWeekLowChange": {
+                    "raw": 42.88999,
+                    "fmt": "42.89"
+                },
+                "fiftyTwoWeekHighChangePercent": {
+                    "raw": 0.004428104,
+                    "fmt": "0.44%"
+                },
+                "typeDisp": "Fund",
+                "tradeable": false,
+                "twoHundredDayAverageChange": {
+                    "raw": 19.907837,
+                    "fmt": "19.91"
+                },
+                "currency": "USD",
+                "regularMarketPreviousClose": {
+                    "raw": 156.26999,
+                    "fmt": "156.27"
+                },
+                "fiftyTwoWeekHigh": {
+                    "raw": 155.82,
+                    "fmt": "155.82"
+                },
+                "twoHundredDayAverage": {
+                    "raw": 136.60216,
+                    "fmt": "136.60"
+                },
+                "exchangeTimezoneName": "America/New_York",
+                "fiftyTwoWeekHighChange": {
+                    "raw": 0.6899872,
+                    "fmt": "0.69"
+                },
+                "regularMarketChange": {
+                    "raw": 0.24,
+                    "fmt": "0.24"
+                },
+                "fiftyTwoWeekRange": {
+                    "raw": "113.62 - 155.82",
+                    "fmt": "113.62 - 155.82"
+                },
+                "fiftyDayAverageChange": {
+                    "raw": 7.5323944,
+                    "fmt": "7.53"
+                },
+                "cryptoTradeable": false,
+                "exchangeDataDelayedBy": 0,
+                "firstTradeDateMilliseconds": 1692365400000,
+                "fiftyDayAverage": {
+                    "raw": 148.9776,
+                    "fmt": "148.98"
+                },
+                "exchangeTimezoneShortName": "EST",
+                "fiftyTwoWeekChangePercent": {
+                    "raw": 36.325455,
+                    "fmt": "36.33%"
+                },
+                "hasPrePostMarketData": false,
+                "marketState": "PRE",
+                "customPriceAlertConfidence": "NONE",
+                "fiftyTwoWeekLow": {
+                    "raw": 113.62,
+                    "fmt": "113.62"
+                },
+                "regularMarketPrice": {
+                    "raw": 156.51,
+                    "fmt": "156.51"
+                },
+                "market": "us_market",
+                "quoteSourceName": "Delayed Quote",
+                "priceHint": 2,
+                "sourceInterval": 15,
+                "exchange": "NAS",
+                "region": "US",
+                "fiftyDayAverageChangePercent": {
+                    "raw": 0.050560582,
+                    "fmt": "5.06%"
+                },
+                "triggerable": false,
+                "longName": "JPMorgan Chase Financial Company LLC Dual Directional Buffer Note AAPLWXX"
+            },
+            {
+                "fullExchangeName": "Nasdaq",
+                "symbol": "AAPLEXX",
+                "twoHundredDayAverageChangePercent": {
+                    "raw": 0.102182075,
+                    "fmt": "10.22%"
+                },
+                "fiftyTwoWeekLowChangePercent": {
+                    "raw": 0.21528363,
+                    "fmt": "21.53%"
+                },
+                "gmtOffSetMilliseconds": -18000000,
+                "language": "en-US",
+                "regularMarketTime": {
+                    "raw": 1734138126,
+                    "fmt": "8:02PM EST"
+                },
+                "regularMarketChangePercent": {
+                    "raw": -0.2309291,
+                    "fmt": "-0.23%"
+                },
+                "quoteType": "MUTUALFUND",
+                "fiftyTwoWeekLowChange": {
+                    "raw": 22.96,
+                    "fmt": "22.96"
+                },
+                "fiftyTwoWeekHighChangePercent": {
+                    "raw": -0.0039960365,
+                    "fmt": "-0.40%"
+                },
+                "typeDisp": "Fund",
+                "tradeable": false,
+                "twoHundredDayAverageChange": {
+                    "raw": 12.015999,
+                    "fmt": "12.02"
+                },
+                "currency": "USD",
+                "regularMarketPreviousClose": {
+                    "raw": 129.91,
+                    "fmt": "129.91"
+                },
+                "fiftyTwoWeekHigh": {
+                    "raw": 130.13,
+                    "fmt": "130.13"
+                },
+                "twoHundredDayAverage": {
+                    "raw": 117.594,
+                    "fmt": "117.59"
+                },
+                "exchangeTimezoneName": "America/New_York",
+                "fiftyTwoWeekHighChange": {
+                    "raw": -0.5200043,
+                    "fmt": "-0.52"
+                },
+                "regularMarketChange": {
+                    "raw": -0.3,
+                    "fmt": "-0.30"
+                },
+                "fiftyTwoWeekRange": {
+                    "raw": "106.65 - 130.13",
+                    "fmt": "106.65 - 130.13"
+                },
+                "fiftyDayAverageChange": {
+                    "raw": 4.274597,
+                    "fmt": "4.27"
+                },
+                "cryptoTradeable": false,
+                "exchangeDataDelayedBy": 0,
+                "firstTradeDateMilliseconds": 1692365400000,
+                "fiftyDayAverage": {
+                    "raw": 125.3354,
+                    "fmt": "125.34"
+                },
+                "exchangeTimezoneShortName": "EST",
+                "fiftyTwoWeekChangePercent": {
+                    "raw": 20.090437,
+                    "fmt": "20.09%"
+                },
+                "hasPrePostMarketData": false,
+                "marketState": "PRE",
+                "customPriceAlertConfidence": "NONE",
+                "fiftyTwoWeekLow": {
+                    "raw": 106.65,
+                    "fmt": "106.65"
+                },
+                "regularMarketPrice": {
+                    "raw": 129.61,
+                    "fmt": "129.61"
+                },
+                "market": "us_market",
+                "quoteSourceName": "Delayed Quote",
+                "priceHint": 2,
+                "sourceInterval": 15,
+                "exchange": "NAS",
+                "region": "US",
+                "fiftyDayAverageChangePercent": {
+                    "raw": 0.034105264,
+                    "fmt": "3.41%"
+                },
+                "triggerable": false,
+                "longName": "JPMorgan Chase Financial Company LLC Capped Point to Point Worst Of Buffer Note AAPLEXX"
+            },
+            {
+                "fullExchangeName": "Nasdaq",
+                "symbol": "AAPLIXX",
+                "twoHundredDayAverageChangePercent": {
+                    "raw": 0.108970284,
+                    "fmt": "10.90%"
+                },
+                "fiftyTwoWeekLowChangePercent": {
+                    "raw": 0.22598588,
+                    "fmt": "22.60%"
+                },
+                "gmtOffSetMilliseconds": -18000000,
+                "language": "en-US",
+                "regularMarketTime": {
+                    "raw": 1734138126,
+                    "fmt": "8:02PM EST"
+                },
+                "regularMarketChangePercent": {
+                    "raw": -0.98549354,
+                    "fmt": "-0.99%"
+                },
+                "quoteType": "MUTUALFUND",
+                "fiftyTwoWeekLowChange": {
+                    "raw": 23.149994,
+                    "fmt": "23.15"
+                },
+                "fiftyTwoWeekHighChangePercent": {
+                    "raw": -0.018598147,
+                    "fmt": "-1.86%"
+                },
+                "typeDisp": "Fund",
+                "tradeable": false,
+                "twoHundredDayAverageChange": {
+                    "raw": 12.340797,
+                    "fmt": "12.34"
+                },
+                "currency": "USD",
+                "regularMarketPreviousClose": {
+                    "raw": 126.84,
+                    "fmt": "126.84"
+                },
+                "fiftyTwoWeekHigh": {
+                    "raw": 127.97,
+                    "fmt": "127.97"
+                },
+                "twoHundredDayAverage": {
+                    "raw": 113.2492,
+                    "fmt": "113.25"
+                },
+                "exchangeTimezoneName": "America/New_York",
+                "fiftyTwoWeekHighChange": {
+                    "raw": -2.380005,
+                    "fmt": "-2.38"
+                },
+                "regularMarketChange": {
+                    "raw": -1.25,
+                    "fmt": "-1.25"
+                },
+                "fiftyTwoWeekRange": {
+                    "raw": "102.44 - 127.97",
+                    "fmt": "102.44 - 127.97"
+                },
+                "fiftyDayAverageChange": {
+                    "raw": 4.0143967,
+                    "fmt": "4.01"
+                },
+                "cryptoTradeable": false,
+                "exchangeDataDelayedBy": 0,
+                "firstTradeDateMilliseconds": 1692365400000,
+                "fiftyDayAverage": {
+                    "raw": 121.5756,
+                    "fmt": "121.58"
+                },
+                "exchangeTimezoneShortName": "EST",
+                "fiftyTwoWeekChangePercent": {
+                    "raw": 24.921906,
+                    "fmt": "24.92%"
+                },
+                "hasPrePostMarketData": false,
+                "marketState": "PRE",
+                "customPriceAlertConfidence": "NONE",
+                "fiftyTwoWeekLow": {
+                    "raw": 102.44,
+                    "fmt": "102.44"
+                },
+                "regularMarketPrice": {
+                    "raw": 125.59,
+                    "fmt": "125.59"
+                },
+                "market": "us_market",
+                "quoteSourceName": "Delayed Quote",
+                "priceHint": 2,
+                "sourceInterval": 15,
+                "exchange": "NAS",
+                "region": "US",
+                "fiftyDayAverageChangePercent": {
+                    "raw": 0.033019755,
+                    "fmt": "3.30%"
+                },
+                "triggerable": false,
+                "longName": "Barclays Bank PLC Point to Point Worst Of Buffer Note AAPLIXX"
+            },
+            {
+                "fullExchangeName": "Nasdaq",
+                "symbol": "AAPLJXX",
+                "twoHundredDayAverageChangePercent": {
+                    "raw": 0.009032289,
+                    "fmt": "0.90%"
+                },
+                "fiftyTwoWeekLowChangePercent": {
+                    "raw": 0.07557775,
+                    "fmt": "7.56%"
+                },
+                "gmtOffSetMilliseconds": -18000000,
+                "language": "en-US",
+                "regularMarketTime": {
+                    "raw": 1734138126,
+                    "fmt": "8:02PM EST"
+                },
+                "regularMarketChangePercent": {
+                    "raw": -0.21634379,
+                    "fmt": "-0.22%"
+                },
+                "quoteType": "MUTUALFUND",
+                "fiftyTwoWeekLowChange": {
+                    "raw": 7.130005,
+                    "fmt": "7.13"
+                },
+                "fiftyTwoWeekHighChangePercent": {
+                    "raw": -0.03838131,
+                    "fmt": "-3.84%"
+                },
+                "typeDisp": "Fund",
+                "tradeable": false,
+                "twoHundredDayAverageChange": {
+                    "raw": 0.9083023,
+                    "fmt": "0.91"
+                },
+                "currency": "USD",
+                "regularMarketPreviousClose": {
+                    "raw": 101.69,
+                    "fmt": "101.69"
+                },
+                "fiftyTwoWeekHigh": {
+                    "raw": 105.52,
+                    "fmt": "105.52"
+                },
+                "twoHundredDayAverage": {
+                    "raw": 100.5617,
+                    "fmt": "100.56"
+                },
+                "exchangeTimezoneName": "America/New_York",
+                "fiftyTwoWeekHighChange": {
+                    "raw": -4.0499954,
+                    "fmt": "-4.05"
+                },
+                "regularMarketChange": {
+                    "raw": -0.22,
+                    "fmt": "-0.22"
+                },
+                "fiftyTwoWeekRange": {
+                    "raw": "94.34 - 105.52",
+                    "fmt": "94.34 - 105.52"
+                },
+                "fiftyDayAverageChange": {
+                    "raw": -0.9178009,
+                    "fmt": "-0.92"
+                },
+                "cryptoTradeable": false,
+                "exchangeDataDelayedBy": 0,
+                "firstTradeDateMilliseconds": 1692365400000,
+                "fiftyDayAverage": {
+                    "raw": 102.3878,
+                    "fmt": "102.39"
+                },
+                "exchangeTimezoneShortName": "EST",
+                "fiftyTwoWeekChangePercent": {
+                    "raw": 8.999359,
+                    "fmt": "9.00%"
+                },
+                "hasPrePostMarketData": false,
+                "marketState": "PRE",
+                "customPriceAlertConfidence": "NONE",
+                "fiftyTwoWeekLow": {
+                    "raw": 94.34,
+                    "fmt": "94.34"
+                },
+                "regularMarketPrice": {
+                    "raw": 101.47,
+                    "fmt": "101.47"
+                },
+                "market": "us_market",
+                "quoteSourceName": "Delayed Quote",
+                "priceHint": 2,
+                "sourceInterval": 15,
+                "exchange": "NAS",
+                "region": "US",
+                "fiftyDayAverageChangePercent": {
+                    "raw": -0.008963968,
+                    "fmt": "-0.90%"
+                },
+                "triggerable": false,
+                "longName": "JPMorgan Chase Financial Company LLC Point to Point Fully Principally Protected Note AAPLJXX"
+            },
+            {
+                "symbol": "AAPLCL.SN",
+                "twoHundredDayAverageChangePercent": {
+                    "raw": 0.25691757,
+                    "fmt": "25.69%"
+                },
+                "fiftyTwoWeekLowChangePercent": {
+                    "raw": 0.5496009,
+                    "fmt": "54.96%"
+                },
+                "isEarningsDateEstimate": true,
+                "language": "en-US",
+                "regularMarketDayRange": {
+                    "raw": "244620.0 - 244620.0",
+                    "fmt": "244,620.00 - 244,620.00"
+                },
+                "earningsTimestampEnd": {
+                    "raw": 1738616400,
+                    "fmt": "2025-02-03",
+                    "longFmt": "2025-02-03T18:00"
+                },
+                "regularMarketDayHigh": {
+                    "raw": 244620.0,
+                    "fmt": "244,620.00"
+                },
+                "twoHundredDayAverageChange": {
+                    "raw": 50001.03,
+                    "fmt": "50,001.03"
+                },
+                "twoHundredDayAverage": {
+                    "raw": 194618.97,
+                    "fmt": "194,618.97"
+                },
+                "bookValue": {
+                    "raw": 3.767,
+                    "fmt": "3.77"
+                },
+                "fiftyTwoWeekHighChange": {
+                    "raw": -55380.0,
+                    "fmt": "-55,380.00"
+                },
+                "fiftyTwoWeekRange": {
+                    "raw": "157860.0 - 300000.0",
+                    "fmt": "157,860.00 - 300,000.00"
+                },
+                "fiftyDayAverageChange": {
+                    "raw": 29484.656,
+                    "fmt": "29,484.66"
+                },
+                "exchangeDataDelayedBy": 20,
+                "averageDailyVolume3Month": {
+                    "raw": 30,
+                    "fmt": "30",
+                    "longFmt": "30"
+                },
+                "firstTradeDateMilliseconds": 1607517000000,
+                "fiftyTwoWeekChangePercent": {
+                    "raw": 29.793512,
+                    "fmt": "29.79%"
+                },
+                "trailingAnnualDividendRate": {
+                    "raw": 0.98,
+                    "fmt": "0.98"
+                },
+                "hasPrePostMarketData": false,
+                "fiftyTwoWeekLow": {
+                    "raw": 157860.0,
+                    "fmt": "157,860.00"
+                },
+                "market": "cl_market",
+                "regularMarketVolume": {
+                    "raw": 0,
+                    "fmt": "0",
+                    "longFmt": "0"
+                },
+                "quoteSourceName": "Delayed Quote",
+                "messageBoardId": "finmb_24937",
+                "priceHint": 2,
+                "sourceInterval": 15,
+                "exchange": "SGO",
+                "regularMarketDayLow": {
+                    "raw": 244620.0,
+                    "fmt": "244,620.00"
+                },
+                "shortName": "APPLE INC",
+                "region": "US",
+                "fiftyDayAverageChangePercent": {
+                    "raw": 0.13705166,
+                    "fmt": "13.71%"
+                },
+                "fullExchangeName": "Santiago",
+                "earningsTimestampStart": {
+                    "raw": 1738270800,
+                    "fmt": "2025-01-30",
+                    "longFmt": "2025-01-30T18:00"
+                },
+                "financialCurrency": "USD",
+                "gmtOffSetMilliseconds": -10800000,
+                "regularMarketOpen": {
+                    "raw": 0.0,
+                    "fmt": "0.00"
+                },
+                "regularMarketTime": {
+                    "raw": 1734098655,
+                    "fmt": "11:04AM CLST"
+                },
+                "regularMarketChangePercent": {
+                    "raw": 11.190909,
+                    "fmt": "11.19%"
+                },
+                "quoteType": "EQUITY",
+                "trailingAnnualDividendYield": {
+                    "raw": 4.4545454E-6,
+                    "fmt": "0.00%"
+                },
+                "averageDailyVolume10Day": {
+                    "raw": 2,
+                    "fmt": "2",
+                    "longFmt": "2"
+                },
+                "fiftyTwoWeekLowChange": {
+                    "raw": 86760.0,
+                    "fmt": "86,760.00"
+                },
+                "earningsCallTimestampEnd": {
+                    "raw": 1730408400,
+                    "fmt": "2024-10-31",
+                    "longFmt": "2024-10-31T21:00"
+                },
+                "fiftyTwoWeekHighChangePercent": {
+                    "raw": -0.1846,
+                    "fmt": "-18.46%"
+                },
+                "typeDisp": "Equity",
+                "trailingPE": {
+                    "raw": 39859.867,
+                    "fmt": "39,859.87"
+                },
+                "tradeable": false,
+                "currency": "CLP",
+                "regularMarketPreviousClose": {
+                    "raw": 220000.0,
+                    "fmt": "220,000.00"
+                },
+                "fiftyTwoWeekHigh": {
+                    "raw": 300000.0,
+                    "fmt": "300,000.00"
+                },
+                "exchangeTimezoneName": "America/Santiago",
+                "regularMarketChange": {
+                    "raw": 24620.0,
+                    "fmt": "24,620.00"
+                },
+                "cryptoTradeable": false,
+                "fiftyDayAverage": {
+                    "raw": 215135.34,
+                    "fmt": "215,135.34"
+                },
+                "exchangeTimezoneShortName": "CLST",
+                "marketState": "REGULAR",
+                "customPriceAlertConfidence": "LOW",
+                "regularMarketPrice": {
+                    "raw": 244620.0,
+                    "fmt": "244,620.00"
+                },
+                "earningsTimestamp": {
+                    "raw": 1730406600,
+                    "fmt": "2024-10-31",
+                    "longFmt": "2024-10-31T17:30"
+                },
+                "ask": {
+                    "raw": 0.0,
+                    "fmt": "0.00"
+                },
+                "epsTrailingTwelveMonths": {
+                    "raw": 6.137,
+                    "fmt": "6.14"
+                },
+                "bid": {
+                    "raw": 0.0,
+                    "fmt": "0.00"
+                },
+                "priceToBook": {
+                    "raw": 64937.617,
+                    "fmt": "64,937.62"
+                },
+                "triggerable": false,
+                "earningsCallTimestampStart": {
+                    "raw": 1730408400,
+                    "fmt": "2024-10-31",
+                    "longFmt": "2024-10-31T21:00"
+                },
+                "longName": "Apple Inc."
+            },
+            {
+                "symbol": "AAPL.CL",
+                "isEarningsDateEstimate": true,
+                "language": "en-US",
+                "regularMarketDayRange": {
+                    "raw": "0.0 - 0.0",
+                    "fmt": "0.00 - 0.00"
+                },
+                "earningsTimestampEnd": {
+                    "raw": 1738616400,
+                    "fmt": "2025-02-03",
+                    "longFmt": "2025-02-03T16:00"
+                },
+                "regularMarketDayHigh": {
+                    "raw": 0.0,
+                    "fmt": "0.00"
+                },
+                "bookValue": {
+                    "raw": 3.767,
+                    "fmt": "3.77"
+                },
+                "fiftyTwoWeekHighChange": {
+                    "raw": 1076000.0,
+                    "fmt": "1,076,000.00"
+                },
+                "fiftyTwoWeekRange": {
+                    "raw": "0.0 - 0.0",
+                    "fmt": "0.00 - 0.00"
+                },
+                "exchangeDataDelayedBy": 15,
+                "trailingAnnualDividendRate": {
+                    "raw": 0.98,
+                    "fmt": "0.98"
+                },
+                "hasPrePostMarketData": false,
+                "fiftyTwoWeekLow": {
+                    "raw": 0.0,
+                    "fmt": "0.00"
+                },
+                "market": "co_market",
+                "regularMarketVolume": {
+                    "raw": 0,
+                    "fmt": "0",
+                    "longFmt": "0"
+                },
+                "messageBoardId": "finmb_24937",
+                "priceHint": 2,
+                "sourceInterval": 15,
+                "exchange": "BVC",
+                "regularMarketDayLow": {
+                    "raw": 0.0,
+                    "fmt": "0.00"
+                },
+                "shortName": "APPLE INC",
+                "region": "US",
+                "fullExchangeName": "BVC",
+                "earningsTimestampStart": {
+                    "raw": 1738270800,
+                    "fmt": "2025-01-30",
+                    "longFmt": "2025-01-30T16:00"
+                },
+                "financialCurrency": "USD",
+                "gmtOffSetMilliseconds": -18000000,
+                "regularMarketOpen": {
+                    "raw": 0.0,
+                    "fmt": "0.00"
+                },
+                "regularMarketTime": {
+                    "raw": 1734020618,
+                    "fmt": "11:23AM EST"
+                },
+                "regularMarketChangePercent": {
+                    "raw": 0.0,
+                    "fmt": "0.00%"
+                },
+                "quoteType": "EQUITY",
+                "trailingAnnualDividendYield": {
+                    "raw": 9.1078067E-7,
+                    "fmt": "0.00%"
+                },
+                "fiftyTwoWeekLowChange": {
+                    "raw": 1076000.0,
+                    "fmt": "1,076,000.00"
+                },
+                "earningsCallTimestampEnd": {
+                    "raw": 1730408400,
+                    "fmt": "2024-10-31",
+                    "longFmt": "2024-10-31T21:00"
+                },
+                "typeDisp": "Equity",
+                "tradeable": false,
+                "currency": "COP",
+                "regularMarketPreviousClose": {
+                    "raw": 1076000.0,
+                    "fmt": "1,076,000.00"
+                },
+                "fiftyTwoWeekHigh": {
+                    "raw": 0.0,
+                    "fmt": "0.00"
+                },
+                "exchangeTimezoneName": "America/New_York",
+                "regularMarketChange": {
+                    "raw": 0.0,
+                    "fmt": "0.00"
+                },
+                "cryptoTradeable": false,
+                "exchangeTimezoneShortName": "EST",
+                "marketState": "PREPRE",
+                "customPriceAlertConfidence": "LOW",
+                "regularMarketPrice": {
+                    "raw": 1076000.0,
+                    "fmt": "1,076,000.00"
+                },
+                "earningsTimestamp": {
+                    "raw": 1730406600,
+                    "fmt": "2024-10-31",
+                    "longFmt": "2024-10-31T16:30"
+                },
+                "ask": {
+                    "raw": 0.0,
+                    "fmt": "0.00"
+                },
+                "bid": {
+                    "raw": 0.0,
+                    "fmt": "0.00"
+                },
+                "priceToBook": {
+                    "raw": 285638.44,
+                    "fmt": "285,638.44"
+                },
+                "triggerable": false,
+                "earningsCallTimestampStart": {
+                    "raw": 1730408400,
+                    "fmt": "2024-10-31",
+                    "longFmt": "2024-10-31T21:00"
+                },
+                "longName": "Apple Inc."
+            },
+            {
+                "symbol": "AAPLD.BA",
+                "twoHundredDayAverageChangePercent": {
+                    "raw": 0.18317837,
+                    "fmt": "18.32%"
+                },
+                "isEarningsDateEstimate": true,
+                "language": "en-US",
+                "regularMarketDayRange": {
+                    "raw": "0.0 - 0.0",
+                    "fmt": "0.00 - 0.00"
+                },
+                "earningsTimestampEnd": {
+                    "raw": 1738616400,
+                    "fmt": "2025-02-03",
+                    "longFmt": "2025-02-03T18:00"
+                },
+                "regularMarketDayHigh": {
+                    "raw": 0.0,
+                    "fmt": "0.00"
+                },
+                "twoHundredDayAverageChange": {
+                    "raw": 1.9661999,
+                    "fmt": "1.97"
+                },
+                "twoHundredDayAverage": {
+                    "raw": 10.7338,
+                    "fmt": "10.73"
+                },
+                "bookValue": {
+                    "raw": 3.767,
+                    "fmt": "3.77"
+                },
+                "fiftyTwoWeekHighChange": {
+                    "raw": -0.19999981,
+                    "fmt": "-0.20"
+                },
+                "fiftyTwoWeekRange": {
+                    "raw": "0.0 - 12.9",
+                    "fmt": "0.00 - 12.90"
+                },
+                "fiftyDayAverageChange": {
+                    "raw": 0.7209997,
+                    "fmt": "0.72"
+                },
+                "exchangeDataDelayedBy": 20,
+                "averageDailyVolume3Month": {
+                    "raw": 11144,
+                    "fmt": "11,144",
+                    "longFmt": "11,144"
+                },
+                "firstTradeDateMilliseconds": 1505138400000,
+                "fiftyTwoWeekChangePercent": {
+                    "raw": 28.426397,
+                    "fmt": "28.43%"
+                },
+                "trailingAnnualDividendRate": {
+                    "raw": 0.98,
+                    "fmt": "0.98"
+                },
+                "hasPrePostMarketData": false,
+                "fiftyTwoWeekLow": {
+                    "raw": 0.0,
+                    "fmt": "0.00"
+                },
+                "market": "ar_market",
+                "regularMarketVolume": {
+                    "raw": 0,
+                    "fmt": "0",
+                    "longFmt": "0"
+                },
+                "quoteSourceName": "Delayed Quote",
+                "messageBoardId": "finmb_24937",
+                "priceHint": 2,
+                "sourceInterval": 20,
+                "exchange": "BUE",
+                "regularMarketDayLow": {
+                    "raw": 0.0,
+                    "fmt": "0.00"
+                },
+                "shortName": "APPLE INC CEDEAR(REPR 1/20 SHR)",
+                "region": "US",
+                "fiftyDayAverageChangePercent": {
+                    "raw": 0.06018864,
+                    "fmt": "6.02%"
+                },
+                "fullExchangeName": "Buenos Aires",
+                "earningsTimestampStart": {
+                    "raw": 1738270800,
+                    "fmt": "2025-01-30",
+                    "longFmt": "2025-01-30T18:00"
+                },
+                "financialCurrency": "USD",
+                "gmtOffSetMilliseconds": -10800000,
+                "regularMarketOpen": {
+                    "raw": 0.0,
+                    "fmt": "0.00"
+                },
+                "regularMarketTime": {
+                    "raw": 1734119685,
+                    "fmt": "4:54PM ART"
+                },
+                "regularMarketChangePercent": {
+                    "raw": 0.39525843,
+                    "fmt": "0.40%"
+                },
+                "quoteType": "EQUITY",
+                "trailingAnnualDividendYield": {
+                    "raw": 0.07747036,
+                    "fmt": "7.75%"
+                },
+                "averageDailyVolume10Day": {
+                    "raw": 11695,
+                    "fmt": "11,695",
+                    "longFmt": "11,695"
+                },
+                "fiftyTwoWeekLowChange": {
+                    "raw": 12.7,
+                    "fmt": "12.70"
+                },
+                "earningsCallTimestampEnd": {
+                    "raw": 1730408400,
+                    "fmt": "2024-10-31",
+                    "longFmt": "2024-10-31T21:00"
+                },
+                "fiftyTwoWeekHighChangePercent": {
+                    "raw": -0.015503862,
+                    "fmt": "-1.55%"
+                },
+                "typeDisp": "Equity",
+                "tradeable": false,
+                "currency": "USD",
+                "regularMarketPreviousClose": {
+                    "raw": 12.65,
+                    "fmt": "12.65"
+                },
+                "fiftyTwoWeekHigh": {
+                    "raw": 12.9,
+                    "fmt": "12.90"
+                },
+                "exchangeTimezoneName": "America/Argentina/Buenos_Aires",
+                "regularMarketChange": {
+                    "raw": 0.05000019,
+                    "fmt": "0.05"
+                },
+                "cryptoTradeable": false,
+                "fiftyDayAverage": {
+                    "raw": 11.979,
+                    "fmt": "11.98"
+                },
+                "exchangeTimezoneShortName": "ART",
+                "marketState": "PREPRE",
+                "customPriceAlertConfidence": "LOW",
+                "regularMarketPrice": {
+                    "raw": 12.7,
+                    "fmt": "12.70"
+                },
+                "earningsTimestamp": {
+                    "raw": 1730406600,
+                    "fmt": "2024-10-31",
+                    "longFmt": "2024-10-31T17:30"
+                },
+                "ask": {
+                    "raw": 0.0,
+                    "fmt": "0.00"
+                },
+                "bid": {
+                    "raw": 0.0,
+                    "fmt": "0.00"
+                },
+                "priceToBook": {
+                    "raw": 3.371383,
+                    "fmt": "3.37"
+                },
+                "triggerable": false,
+                "earningsCallTimestampStart": {
+                    "raw": 1730408400,
+                    "fmt": "2024-10-31",
+                    "longFmt": "2024-10-31T21:00"
+                },
+                "longName": "Apple Inc."
+            },
+            {
+                "fullExchangeName": "Dusseldorf",
+                "symbol": "XS246371164.DU",
+                "fiftyTwoWeekLowChangePercent": {
+                    "raw": 0.0,
+                    "fmt": "0.00%"
+                },
+                "gmtOffSetMilliseconds": 3600000,
+                "regularMarketOpen": {
+                    "raw": 98.36,
+                    "fmt": "98.36"
+                },
+                "language": "en-US",
+                "regularMarketTime": {
+                    "raw": 1734336601,
+                    "fmt": "9:10AM CET"
+                },
+                "regularMarketChangePercent": {
+                    "raw": 0.0,
+                    "fmt": "0.00%"
+                },
+                "quoteType": "EQUITY",
+                "regularMarketDayRange": {
+                    "raw": "98.36 - 98.36",
+                    "fmt": "98.36 - 98.36"
+                },
+                "fiftyTwoWeekLowChange": {
+                    "raw": 0.0,
+                    "fmt": "0.00"
+                },
+                "fiftyTwoWeekHighChangePercent": {
+                    "raw": 0.0,
+                    "fmt": "0.00%"
+                },
+                "typeDisp": "Equity",
+                "regularMarketDayHigh": {
+                    "raw": 98.36,
+                    "fmt": "98.36"
+                },
+                "tradeable": false,
+                "currency": "EUR",
+                "regularMarketPreviousClose": {
+                    "raw": 98.36,
+                    "fmt": "98.36"
+                },
+                "fiftyTwoWeekHigh": {
+                    "raw": 98.36,
+                    "fmt": "98.36"
+                },
+                "exchangeTimezoneName": "Europe/Berlin",
+                "fiftyTwoWeekHighChange": {
+                    "raw": 0.0,
+                    "fmt": "0.00"
+                },
+                "regularMarketChange": {
+                    "raw": 0.0,
+                    "fmt": "0.00"
+                },
+                "fiftyTwoWeekRange": {
+                    "raw": "98.36 - 98.36",
+                    "fmt": "98.36 - 98.36"
+                },
+                "cryptoTradeable": false,
+                "exchangeDataDelayedBy": 15,
+                "exchangeTimezoneShortName": "CET",
+                "hasPrePostMarketData": false,
+                "marketState": "REGULAR",
+                "customPriceAlertConfidence": "LOW",
+                "fiftyTwoWeekLow": {
+                    "raw": 98.36,
+                    "fmt": "98.36"
+                },
+                "regularMarketPrice": {
+                    "raw": 98.36,
+                    "fmt": "98.36"
+                },
+                "market": "dr_market",
+                "quoteSourceName": "Delayed Quote",
+                "priceHint": 2,
+                "ask": {
+                    "raw": 98.64,
+                    "fmt": "98.64"
+                },
+                "sourceInterval": 15,
+                "exchange": "DUS",
+                "regularMarketDayLow": {
+                    "raw": 98.36,
+                    "fmt": "98.36"
+                },
+                "bid": {
+                    "raw": 98.37,
+                    "fmt": "98.37"
+                },
+                "region": "US",
+                "triggerable": false
+            },
+            {
+                "fullExchangeName": "Nasdaq",
+                "symbol": "AAPLYXX",
+                "twoHundredDayAverageChangePercent": {
+                    "raw": 0.13131945,
+                    "fmt": "13.13%"
+                },
+                "fiftyTwoWeekLowChangePercent": {
+                    "raw": 0.32730255,
+                    "fmt": "32.73%"
+                },
+                "gmtOffSetMilliseconds": -18000000,
+                "language": "en-US",
+                "regularMarketTime": {
+                    "raw": 1734138126,
+                    "fmt": "8:02PM EST"
+                },
+                "regularMarketChangePercent": {
+                    "raw": 0.26920688,
+                    "fmt": "0.27%"
+                },
+                "quoteType": "MUTUALFUND",
+                "fiftyTwoWeekLowChange": {
+                    "raw": 35.819992,
+                    "fmt": "35.82"
+                },
+                "fiftyTwoWeekHighChangePercent": {
+                    "raw": 0.0052594775,
+                    "fmt": "0.53%"
+                },
+                "typeDisp": "Fund",
+                "tradeable": false,
+                "twoHundredDayAverageChange": {
+                    "raw": 16.861252,
+                    "fmt": "16.86"
+                },
+                "currency": "USD",
+                "regularMarketPreviousClose": {
+                    "raw": 144.87,
+                    "fmt": "144.87"
+                },
+                "fiftyTwoWeekHigh": {
+                    "raw": 144.5,
+                    "fmt": "144.50"
+                },
+                "twoHundredDayAverage": {
+                    "raw": 128.39874,
+                    "fmt": "128.40"
+                },
+                "exchangeTimezoneName": "America/New_York",
+                "fiftyTwoWeekHighChange": {
+                    "raw": 0.7599945,
+                    "fmt": "0.76"
+                },
+                "regularMarketChange": {
+                    "raw": 0.39,
+                    "fmt": "0.39"
+                },
+                "fiftyTwoWeekRange": {
+                    "raw": "109.44 - 144.5",
+                    "fmt": "109.44 - 144.50"
+                },
+                "fiftyDayAverageChange": {
+                    "raw": 6.1584015,
+                    "fmt": "6.16"
+                },
+                "cryptoTradeable": false,
+                "exchangeDataDelayedBy": 0,
+                "firstTradeDateMilliseconds": 1692365400000,
+                "fiftyDayAverage": {
+                    "raw": 139.1016,
+                    "fmt": "139.10"
+                },
+                "exchangeTimezoneShortName": "EST",
+                "fiftyTwoWeekChangePercent": {
+                    "raw": 32.035816,
+                    "fmt": "32.04%"
+                },
+                "hasPrePostMarketData": false,
+                "marketState": "PRE",
+                "customPriceAlertConfidence": "NONE",
+                "fiftyTwoWeekLow": {
+                    "raw": 109.44,
+                    "fmt": "109.44"
+                },
+                "regularMarketPrice": {
+                    "raw": 145.26,
+                    "fmt": "145.26"
+                },
+                "market": "us_market",
+                "quoteSourceName": "Delayed Quote",
+                "priceHint": 2,
+                "sourceInterval": 15,
+                "exchange": "NAS",
+                "region": "US",
+                "fiftyDayAverageChangePercent": {
+                    "raw": 0.044272687,
+                    "fmt": "4.43%"
+                },
+                "triggerable": false,
+                "longName": "Barclays Bank PLC Point to Point Buffer Note AAPLYXX"
+            },
+            {
+                "fullExchangeName": "Nasdaq",
+                "symbol": "AAPLDXX",
+                "twoHundredDayAverageChangePercent": {
+                    "raw": 0.08221578,
+                    "fmt": "8.22%"
+                },
+                "fiftyTwoWeekLowChangePercent": {
+                    "raw": 0.20993449,
+                    "fmt": "20.99%"
+                },
+                "gmtOffSetMilliseconds": -18000000,
+                "language": "en-US",
+                "regularMarketTime": {
+                    "raw": 1734138126,
+                    "fmt": "8:02PM EST"
+                },
+                "regularMarketChangePercent": {
+                    "raw": -0.03871467,
+                    "fmt": "-0.04%"
+                },
+                "quoteType": "MUTUALFUND",
+                "fiftyTwoWeekLowChange": {
+                    "raw": 22.40001,
+                    "fmt": "22.40"
+                },
+                "fiftyTwoWeekHighChangePercent": {
+                    "raw": 0.0014739154,
+                    "fmt": "0.15%"
+                },
+                "typeDisp": "Fund",
+                "tradeable": false,
+                "twoHundredDayAverageChange": {
+                    "raw": 9.807709,
+                    "fmt": "9.81"
+                },
+                "currency": "USD",
+                "regularMarketPreviousClose": {
+                    "raw": 129.15001,
+                    "fmt": "129.15"
+                },
+                "fiftyTwoWeekHigh": {
+                    "raw": 128.91,
+                    "fmt": "128.91"
+                },
+                "twoHundredDayAverage": {
+                    "raw": 119.2923,
+                    "fmt": "119.29"
+                },
+                "exchangeTimezoneName": "America/New_York",
+                "fiftyTwoWeekHighChange": {
+                    "raw": 0.19000244,
+                    "fmt": "0.19"
+                },
+                "regularMarketChange": {
+                    "raw": -0.05,
+                    "fmt": "-0.05"
+                },
+                "fiftyTwoWeekRange": {
+                    "raw": "106.7 - 128.91",
+                    "fmt": "106.70 - 128.91"
+                },
+                "fiftyDayAverageChange": {
+                    "raw": 2.4320068,
+                    "fmt": "2.43"
+                },
+                "cryptoTradeable": false,
+                "exchangeDataDelayedBy": 0,
+                "firstTradeDateMilliseconds": 1692365400000,
+                "fiftyDayAverage": {
+                    "raw": 126.668,
+                    "fmt": "126.67"
+                },
+                "exchangeTimezoneShortName": "EST",
+                "fiftyTwoWeekChangePercent": {
+                    "raw": 20.815372,
+                    "fmt": "20.82%"
+                },
+                "hasPrePostMarketData": false,
+                "marketState": "PRE",
+                "customPriceAlertConfidence": "NONE",
+                "fiftyTwoWeekLow": {
+                    "raw": 106.7,
+                    "fmt": "106.70"
+                },
+                "regularMarketPrice": {
+                    "raw": 129.1,
+                    "fmt": "129.10"
+                },
+                "market": "us_market",
+                "quoteSourceName": "Delayed Quote",
+                "priceHint": 2,
+                "sourceInterval": 15,
+                "exchange": "NAS",
+                "region": "US",
+                "fiftyDayAverageChangePercent": {
+                    "raw": 0.019199852,
+                    "fmt": "1.92%"
+                },
+                "triggerable": false,
+                "longName": "Barclays Bank PLC Capped Point to Point Fully Principally Protected Note AAPLDXX"
+            }
+        ],
+        "error": null
+    }
+}
+

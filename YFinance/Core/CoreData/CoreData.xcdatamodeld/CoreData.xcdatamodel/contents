@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="23605" systemVersion="24C101" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="ChartsCache" representedClassName="ChartsCache" syncable="YES">
+        <attribute name="dictionary" optional="YES" attributeType="Transformable" valueTransformerName="CoreDataTransformer"/>
+    </entity>
+    <entity name="Crumb" representedClassName="Crumb" syncable="YES">
+        <attribute name="domain" attributeType="String" defaultValueString=""/>
+        <attribute name="expiresDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="key" attributeType="String" defaultValueString=""/>
+        <attribute name="name" attributeType="String" defaultValueString=""/>
+    </entity>
+    <entity name="LookupsCache" representedClassName="LookupsCache" syncable="YES">
+        <attribute name="ordered" optional="YES" attributeType="Transformable" valueTransformerName="CoreDataTransformer" customClassName="OrderedLookups"/>
+    </entity>
+    <entity name="QuotesCache" representedClassName="QuotesCache" syncable="YES">
+        <attribute name="ordered" optional="YES" attributeType="Transformable" valueTransformerName="CoreDataTransformer" customClassName="OrderedQuotes"/>
+    </entity>
+</model>
