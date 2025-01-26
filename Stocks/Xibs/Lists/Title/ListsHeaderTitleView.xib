@@ -74,6 +74,9 @@
                 <constraint firstItem="e9i-fd-THj" firstAttribute="leading" secondItem="G9p-mR-lRm" secondAttribute="trailing" constant="8" id="mGs-uF-Yms"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="dateLabel" destination="ewK-7N-LRy" id="WTa-iS-Gnz"/>
+            </connections>
             <point key="canvasLocation" x="78.625954198473281" y="19.366197183098592"/>
         </view>
     </objects>

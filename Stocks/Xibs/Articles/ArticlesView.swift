@@ -15,7 +15,7 @@ class ArticlesView: UISheetView {
     }
     
     internal func config() {
-        self.edgeInsets.top(60)
+        self.edgeInsets.top(55)
         self.edgeInsets.left(0)
         self.edgeInsets.right(0)
         self.edgeInsets.bottom(0)

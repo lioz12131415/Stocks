@@ -52,3 +52,12 @@ extension String {
         return split(separator: ":")[0] == scheme
     }
 }
+
+extension String {
+    internal static func date(_ format: String) -> String {
+        let formatter   = DateFormatter()
+        let currentDate = Date()
+        formatter.dateFormat = format
+        return formatter.string(from: currentDate)
+    }
+}

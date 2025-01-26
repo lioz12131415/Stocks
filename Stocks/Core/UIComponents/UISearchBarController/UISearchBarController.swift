@@ -86,9 +86,6 @@ class UISearchBarController: UIViewController {
     }
     
     fileprivate func didScroll(_ scrollView: UIScrollView) {
-//        guard scrollView.contentOffset.y > 0 else {
-//            return
-//        }
         self.fieldContainerView.resignResponder()
     }
     

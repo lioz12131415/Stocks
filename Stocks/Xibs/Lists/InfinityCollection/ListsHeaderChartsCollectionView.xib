@@ -14,7 +14,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Y0y-OQ-pSu" customClass="UIInfinityCollectionView" customModule="Stocks" customModuleProvider="target">
-                    <rect key="frame" x="0.0" y="0.0" width="393" height="55"/>
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="51"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="NJs-xj-PLT">
                         <size key="itemSize" width="128" height="128"/>
@@ -29,7 +29,7 @@
                 <constraint firstItem="Y0y-OQ-pSu" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="604-CI-vLV"/>
                 <constraint firstItem="Y0y-OQ-pSu" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="7JA-Do-Bdx"/>
                 <constraint firstAttribute="trailing" secondItem="Y0y-OQ-pSu" secondAttribute="trailing" id="WxK-81-5tT"/>
-                <constraint firstAttribute="bottom" secondItem="Y0y-OQ-pSu" secondAttribute="bottom" id="b1P-9p-jfA"/>
+                <constraint firstAttribute="bottom" secondItem="Y0y-OQ-pSu" secondAttribute="bottom" constant="4" id="b1P-9p-jfA"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>

@@ -1633,8 +1633,8 @@
 			children = (
 				BEBA29332D3A9AE900B767F5 /* Crumb */,
 				BEBA29302D3A9AE900B767F5 /* ChartsCache */,
-				BEBA29362D3A9AE900B767F5 /* LookupsCache */,
 				BEBA29392D3A9AE900B767F5 /* QuotesCache */,
+				BEBA29362D3A9AE900B767F5 /* LookupsCache */,
 			);
 			path = Entities;
 			sourceTree = "<group>";

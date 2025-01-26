@@ -9,9 +9,11 @@ import UIKit
 
 class ListsHeaderTitleView: UIView {
     
+    @IBOutlet weak var dateLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        /* * * * * */
+        self.dateLabel.text = .date("dd MMMM")
     }
     
     internal static func loadFromNib() -> ListsHeaderTitleView {

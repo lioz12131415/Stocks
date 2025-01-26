@@ -27,10 +27,11 @@ class WatchListVC: UISearchBarViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad(tableView)
-        self.tableView.delegate   = self
-        self.tableView.dataSource = self
+        self.tableView.delegate            = self
+        self.tableView.dataSource          = self
+        self.tableView.contentInset.bottom = 52+90
         self.noDataView.bind(to: view, show: false)
-        
+                
         self.finance.cache.load(.charts) { [weak self] in
             self?.observe()
             self?.update()
@@ -71,13 +72,5 @@ extension WatchListVC: UITableViewDelegate, UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "WatchCell", for: indexPath) as! WatchCell
         cell.chart = charts[indexPath.row]
         return cell
-    }
-    
-    func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
-        return UIView(color: .clear)
-    }
-    
-    func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
-        return 90
     }
 }
