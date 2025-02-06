@@ -2,7 +2,7 @@
 //  JSON+Hashable.swift
 //  Networking
 //
-//  Created by Lioz Balki on 1/01/1970.
+//  Created by ליעוז בלקי on 30/12/2024.
 //
 
 import Foundation

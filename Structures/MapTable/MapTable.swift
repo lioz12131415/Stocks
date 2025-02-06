@@ -1,8 +1,8 @@
 //
 //  MapTable.swift
-//  Structures
+//  ¯\_(ツ)_/¯
 //
-//  Created by Lioz Balki on 1/01/1970.
+//  Created by Lioz Balki on 01/01/1970.
 //
 
 import Foundation
@@ -43,6 +43,7 @@ public class MapTable<Value: NSObject>: NSObject {
         return value
     }
     
+    @discardableResult
     public func get(for pointer: String) -> Value? {
         objc_sync_enter(storage); defer { objc_sync_exit(storage) }
         return storage.object(forKey: pointer.nsstringValue)

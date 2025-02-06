@@ -2,7 +2,7 @@
 //  Session.swift
 //  Networking
 //
-//  Created by Lioz Balki on 1/01/1970.
+//  Created by ליעוז בלקי on 17/12/2024.
 //
 
 import Foundation
@@ -24,6 +24,23 @@ public struct Session<E: Endpoint> {
         do {
             let (data, response) = try await session.data(for: request.urlRequest)
             return (data, try response.httpValue())
+        } catch let error as NSError {
+            if error.code == NSURLErrorCancelled {
+                throw HTTPError.cancelled
+            } else {
+                throw HTTPError.invalid(.init(error: error))
+            }
+        }
+    }
+    
+    internal func request(_ type: XML.Type) async throws -> XML {
+        guard let request = request else {
+            throw HTTPError.invalid(.init(message: "TODO"))
+        }
+        do {
+            let response  = try await session.data(for: request.urlRequest)
+            let validated = try await session.validate(response.0, response.1)
+            return HTTPDecoder.decode(xml: validated.0)
         } catch let error as NSError {
             if error.code == NSURLErrorCancelled {
                 throw HTTPError.cancelled
@@ -88,6 +105,3 @@ extension URLResponse {
         return response
     }
 }
-
-
-

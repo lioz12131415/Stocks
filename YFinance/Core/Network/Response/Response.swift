@@ -1,8 +1,8 @@
 //
 //  Response.swift
-//  YFinance
+//  ¯\_(ツ)_/¯
 //
-//  Created by Lioz Balki on 1/01/1970.
+//  Created by Lioz Balki on 01/01/1970.
 //
 
 import Networking
@@ -15,6 +15,11 @@ public struct Response<R: Responseable>: Codable {
     
     public init() {
         self.data = .null
+        self.meta = R.meta()
+    }
+    
+    public init(from json: JSON) {
+        self.data = json
         self.meta = R.meta()
     }
     

@@ -2,7 +2,7 @@
 //  Array+Extensions.swift
 //  Networking
 //
-//  Created by Lioz Balki on 1/01/1970.
+//  Created by ליעוז בלקי on 04/01/2025.
 //
 
 import Foundation

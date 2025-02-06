@@ -1,8 +1,8 @@
 //
 //  Work+Receive.swift
-//  YFinance
+//  ¯\_(ツ)_/¯
 //
-//  Created by Lioz Balki on 1/01/1970.
+//  Created by Lioz Balki on 01/01/1970.
 //
 
 import Foundation
@@ -31,13 +31,6 @@ extension Work {
                 case .main:    DispatchQueue.main.async(execute: block)
                 case .global:  DispatchQueue.global().async(execute: block)
             }
-        }
-        
-        fileprivate func main_sync(_ block: () -> Void) {
-            guard !Thread.isMainThread else {
-                return block()
-            }
-            DispatchQueue.main.sync(execute: block)
         }
     }
 }

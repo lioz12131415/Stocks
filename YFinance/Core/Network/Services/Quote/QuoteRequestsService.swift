@@ -1,14 +1,18 @@
 //
 //  QuoteRequestsService.swift
-//  YFinance
+//  ¯\_(ツ)_/¯
 //
-//  Created by Lioz Balki on 1/01/1970.
+//  Created by Lioz Balki on 01/01/1970.
 //
 
 import Networking
 import Foundation
 
 public class QuoteRequestsService: NetworkService<QuoteEndpoints> {
+    
+    fileprivate var crumb: CrumbCache {
+        return FinanceCache.get.crumb
+    }
     
     public func quotes(for symbols: [String]) async throws -> [Quote] {
         let response = try await response(for: symbols)
@@ -17,8 +21,8 @@ public class QuoteRequestsService: NetworkService<QuoteEndpoints> {
     }
     
     public func response(for symbols: [String]) async throws -> Response<JSON.Quote> {
-        let crumb    = try await Crumb.get()
-        let request  = request(.get(symbols: symbols, crumb: crumb.ts.key))
+        let crumb    = try await crumb.fetch()
+        let request  = request(.get(symbols: symbols, crumb: crumb.key))
         let session  = session(request)
         do {
             return try await get(session, Response<JSON.Quote>.self)
@@ -26,7 +30,9 @@ public class QuoteRequestsService: NetworkService<QuoteEndpoints> {
             return try failure(error)
         }
     }
-    
+}
+
+extension QuoteRequestsService {
     fileprivate func failure(_ error: HTTPError) throws -> Response<JSON.Quote> {
         guard case .cancelled = error else {
             return .empty

@@ -22,3 +22,6 @@ class MainVC: UIViewController {
         UIApplication.open("https://finance.yahoo.com")
     }
 }
+
+
+//https://feeds.finance.yahoo.com/rss/2.0/headline?s=AAPL&region=US&lang=en-US&format=json

@@ -2,7 +2,7 @@
 //  HTTPDecoder.swift
 //  Networking
 //
-//  Created by Lioz Balki on 1/01/1970.
+//  Created by ליעוז בלקי on 17/12/2024.
 //
 
 import Foundation
@@ -13,6 +13,10 @@ public struct HTTPDecoder: Decodable {
     
     public init(from decoder: Decoder) {
         self.decoder = decoder
+    }
+    
+    public static func decode(xml data: Data) -> XML {
+        return XML(data)
     }
     
     public static func decode(_ data: Data) throws -> Decoder {

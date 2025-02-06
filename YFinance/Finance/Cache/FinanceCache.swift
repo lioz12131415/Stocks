@@ -1,32 +1,40 @@
 //
 //  FinanceCache.swift
-//  YFinance
+//  ¯\_(ツ)_/¯
 //
-//  Created by Lioz Balki on 1/01/1970.
+//  Created by Lioz Balki on 01/01/1970.
 //
 
+import SecureData
 import Foundation
 
 final
 public class FinanceCache {
-    public var charts: ChartsCache {
-        return ChartsCache.get
+    
+    private(set) public static var get: FinanceCache = FinanceCache()
+    
+    public var crumb: CrumbCache {
+        return CrumbCache.get
     }
     
-    public var quotes: OrderedQuotes {
-        return QuotesCache.get.elements
-    }
+    private(set) public var charts: ChartsTable = {
+        return ChartsTable()
+    }()
     
-    public var lookups: OrderedLookups {
-        return LookupsCache.get.elements
-    }
+    private(set) public var quotes: QuotesCache = {
+        return QuotesCache()
+    }()
+    
+    private(set) public var lookups: LookupsCache = {
+        return LookupsCache()
+    }()
     
     public func load(_ type: `Type`, _ block: @escaping() -> Void) {
         DispatchQueue.global().async { [weak self] in
             switch type {
-                case .charts:  let _ = self?.charts
-                case .quotes:  let _ = self?.quotes
-                case .lookups: let _ = self?.lookups
+                case .quotes:                let _ = self?.quotes
+                case .lookups:               let _ = self?.lookups
+                case .charts(let r, let g):  let _ = self?.charts[range: r, granularity: g]
             }
             DispatchQueue.main.async(execute: block)
         }
@@ -35,8 +43,8 @@ public class FinanceCache {
 
 extension FinanceCache {
     public enum `Type` {
-        case charts
         case quotes
         case lookups
+        case charts(range: Chart.Range, granularity: Chart.Granularity)
     }
 }

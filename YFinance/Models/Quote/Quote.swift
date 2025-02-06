@@ -1,14 +1,15 @@
 //
 //  Quote.swift
-//  YFinance
+//  ¯\_(ツ)_/¯
 //
-//  Created by Lioz Balki on 1/01/1970.
+//  Created by Lioz Balki on 01/01/1970.
 //
 
+import SecureData
 import Networking
 import Foundation
 
-public struct Quote: Summary, Buildable {
+public struct Quote: Summary, Buildable, Securable {
 
     public var symbol:       String = .empty
     public var exchange:     String = .empty

@@ -1,8 +1,8 @@
 //
 //  ChartStream.swift
-//  YFinance
+//  ¯\_(ツ)_/¯
 //
-//  Created by Lioz Balki on 1/01/1970.
+//  Created by Lioz Balki on 01/01/1970.
 //
 
 import Foundation
@@ -19,7 +19,7 @@ public class ChartStream: Stream<Chart> {
         return finance.charts[range: ticker.range, granularity: ticker.granularity]
     }
     
-    fileprivate var cache: OrderedCharts {
+    fileprivate var cache: ChartsCache {
         return finance.cache.charts[range: ticker.range, granularity: ticker.granularity]
     }
     
@@ -56,10 +56,10 @@ extension ChartStream {
                              _ schedule: Schedule, _ loop: Loop, _ options: Set<CacheOption>) {
         charts.chart(for: ticker.symbol) { [weak self] chart in
             if let cache = self?.cache, options.contains(.update), cache.contains(chart.symbol) {
-                self?.cache.update(chart)
+                self?.cache.update(chart, for: chart.symbol)
             }
             if let cache = self?.cache, options.contains(.save), cache.contains(chart.symbol) {
-                self?.cache.save(.sync)
+                self?.cache.save()
             }
             receive.sync {
                 self?.receiveBlock?(chart)

@@ -1,8 +1,8 @@
 //
 //  ChartRequestsService.swift
-//  YFinance
+//  ¯\_(ツ)_/¯
 //
-//  Created by Lioz Balki on 1/01/1970.
+//  Created by Lioz Balki on 01/01/1970.
 //
 
 import Networking
@@ -12,6 +12,11 @@ public class ChartRequestsService: NetworkService<ChartEndpoints> {
      
     public typealias Range       = Chart.Range
     public typealias Granularity = Chart.Granularity
+    
+    public func chart(from chart: Chart) async throws -> Chart {
+        let response = try await response(symbol: chart.symbol, range: chart.range, granularity: chart.granularity)
+        return Chart(from: response.data)
+    }
     
     public func chart(symbol: String, range: Range, granularity: Granularity) async throws -> Chart {
         let response = try await response(symbol: symbol, range: range, granularity: granularity)

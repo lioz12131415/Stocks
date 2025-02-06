@@ -17,7 +17,7 @@ class WatchListVC: UISearchBarViewController {
         didSet { }
     }
     
-    fileprivate lazy var cache: OrderedCharts = {
+    fileprivate lazy var cache: ChartsCache = {
         return finance.cache.charts[range: .d1, granularity: .m2]
     }()
     
@@ -32,7 +32,7 @@ class WatchListVC: UISearchBarViewController {
         self.tableView.contentInset.bottom = 52+90
         self.noDataView.bind(to: view, show: false)
                 
-        self.finance.cache.load(.charts) { [weak self] in
+        self.finance.cache.load(.charts(range: .d1, granularity: .m2)) { [weak self] in
             self?.observe()
             self?.update()
         }
@@ -40,14 +40,15 @@ class WatchListVC: UISearchBarViewController {
     
     fileprivate func observe() {
         cache.observe(self)
-            .onChange { [weak self] in self?.update() }
-            .onRemove { [weak self] in self?.update() }
+            .onIncrease { [weak self] in self?.update() }
+            .onDecrease { [weak self] in self?.update() }
     }
     
     fileprivate func update() {
         self.charts = cache.values
         self.tableView.reloadData()
         self.charts.isEmpty ? noDataView.show() : noDataView.hide()
+        
         self.finance.spark(charts).onReceive { [weak self] newValues in
             self?.charts = newValues
             self?.tableView.reloadData()

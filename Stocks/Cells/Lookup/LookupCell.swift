@@ -23,11 +23,11 @@ class LookupCell: UITableViewCell {
         didSet { setInfo() }
     }
     
-    fileprivate lazy var quotes: OrderedQuotes = {
+    fileprivate lazy var quotes: QuotesCache = {
         return finance.cache.quotes
     }()
     
-    fileprivate lazy var charts: OrderedCharts = {
+    fileprivate lazy var charts: ChartsCache = {
         return finance.cache.charts[range: .d1, granularity: .m2]
     }()
 
@@ -53,19 +53,19 @@ class LookupCell: UITableViewCell {
     }
     
     fileprivate func save() {
-        self.quotes.save(.async)
-        self.charts.save(.async)
+        self.quotes.save()
+        self.charts.save()
     }
     
     fileprivate func push(_ quote: Quote) {
-        self.charts.push(quote.chartValue(range: .d1, granularity: .m2))
-        self.quotes.push(quote)
+        self.charts.push(quote.chartValue(range: .d1, granularity: .m2), for: quote.symbol)
+        self.quotes.push(quote, for: quote.symbol)
         self.save()
     }
     
     fileprivate func delete(_ quote: Quote) {
-        self.charts.remove(key: quote.symbol)
-        self.quotes.remove(key: quote.symbol)
+        self.charts.remove(for: quote.symbol)
+        self.quotes.remove(for: quote.symbol)
         self.save()
     }
     
@@ -75,7 +75,7 @@ class LookupCell: UITableViewCell {
     }
     
     @IBAction func actionStateTouch(_ sender: UIButton) {
-        self.quotes.contains(quote) ? delete(quote) : push(quote)
+        self.quotes.contains(quote.symbol) ? delete(quote) : push(quote)
         self.update(quote)
     }
 }

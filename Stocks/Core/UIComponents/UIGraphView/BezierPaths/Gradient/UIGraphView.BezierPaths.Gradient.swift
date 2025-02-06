@@ -29,14 +29,13 @@ extension UIGraphView.BezierPaths {
                           plusColor:  UIColor,
                           minusColor: UIColor,
                           bezierPath: UIBezierPath) {
-            guard let close     = chart.indicators.close.all.last,
-                  let timestamp = chart.timestamp.all.last else {
+            guard let timestamp = chart.timestamp.all.last else {
                 return
             }
-
+            
             let end        = chart.tradingPeriod.regular.end
+            let sign       = chart.marketChange.raw.sign
             let start      = chart.tradingPeriod.regular.start
-            let prev_close = chart.marketPreviousClose.raw
             let percentage = start > timestamp ? 1.0 : Double(timestamp - start) / Double(end - start)
             
             bezier_path    = bezierPath
@@ -52,7 +51,7 @@ extension UIGraphView.BezierPaths {
             
             gradient_layer.mask          = gradient_mask
             gradient_layer.frame         = layer.bounds
-            gradient_layer.colors        = close < prev_close ? color(minusColor) : color(plusColor)
+            gradient_layer.colors        = sign == .minus ? color(minusColor) : color(plusColor)
             gradient_layer.contentsScale = UIScreen.main.scale
         }
     }

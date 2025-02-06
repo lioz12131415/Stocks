@@ -1,8 +1,8 @@
 //
 //  JSON+Extensions.swift
-//  YFinance
+//  ¯\_(ツ)_/¯
 //
-//  Created by Lioz Balki on 1/01/1970.
+//  Created by Lioz Balki on 01/01/1970.
 //
 
 import Networking
@@ -61,11 +61,11 @@ extension JSON {
 extension JSON {
     public func timeline() -> Dictionary<String, JSON> {
         return [
-            "range":               JSON(self["range"]),
-            "timestamp":           JSON(self["timestamp"]),
-            "indicators":          JSON(self["indicators"]),
-            "granularity":         JSON(self["granularity"]),
-            "tradingPeriod":       JSON(self["tradingPeriod"]),
+            "range":         JSON(self["range"]),
+            "timestamp":     JSON(self["timestamp"]),
+            "indicators":    JSON(self["indicators"]),
+            "granularity":   JSON(self["granularity"]),
+            "tradingPeriod": JSON(self["tradingPeriod"]),
         ]
     }
 }

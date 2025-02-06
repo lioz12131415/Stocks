@@ -1,8 +1,8 @@
 //
 //  QuoteStream.swift
-//  YFinance
+//  ¯\_(ツ)_/¯
 //
-//  Created by Lioz Balki on 1/01/1970.
+//  Created by Lioz Balki on 01/01/1970.
 //
 
 import Foundation
@@ -15,7 +15,7 @@ public class QuoteStream: Stream<Quote> {
         set { super.ticker = newValue }
     }
     
-    fileprivate var cache: OrderedQuotes {
+    fileprivate var cache: QuotesCache {
         return finance.cache.quotes
     }
     
@@ -55,10 +55,10 @@ extension QuoteStream {
                 return
             }
             if let cache = self?.cache, options.contains(.update), cache.contains(quote.symbol) {
-                self?.cache.update(quote)
+                self?.cache.update(quote, for: quote.symbol)
             }
             if let cache = self?.cache, options.contains(.save), cache.contains(quote.symbol) {
-                self?.cache.save(.sync)
+                self?.cache.save()
             }
             receive.sync {
                 self?.receiveBlock?(quote)

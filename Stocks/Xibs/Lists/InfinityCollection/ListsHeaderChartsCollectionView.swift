@@ -21,7 +21,7 @@ class ListsHeaderChartsCollectionView: UIView {
         return DualAnimationQueue()
     }()
     
-    fileprivate lazy var cache: OrderedCharts = {
+    fileprivate lazy var cache: ChartsCache = {
         return finance.cache.charts[range: .d1, granularity: .m2]
     }()
     
@@ -31,7 +31,7 @@ class ListsHeaderChartsCollectionView: UIView {
         self.collectionView.infinityDelegate   = self
         self.collectionView.infinityDataSource = self
         
-        self.finance.cache.load(.charts) { [weak self] in
+        self.finance.cache.load(.charts(range: .d1, granularity: .m2)) { [weak self] in
             self?.observe()
             self?.update()
         }
@@ -39,13 +39,14 @@ class ListsHeaderChartsCollectionView: UIView {
     
     fileprivate func observe() {
         cache.observe(self)
-            .onChange { [weak self] in self?.update() }
-            .onRemove { [weak self] in self?.update() }
+            .onIncrease { [weak self] in self?.update() }
+            .onDecrease { [weak self] in self?.update() }
     }
     
     fileprivate func update() {
         self.charts = cache.values
         self.collectionView.reloadData()
+        
         self.finance.spark(charts).onReceive { [weak self] newValues in
             self?.charts = newValues
             self?.collectionView.reloadData()
@@ -103,3 +104,5 @@ extension ListsHeaderChartsCollectionView: UIInfinityCollectionViewDelegate, UII
         return .init(width: m+84.0/*99.0*/, height: collectionView.frame.height) /*184*/ // TODO
     }
 }
+
+

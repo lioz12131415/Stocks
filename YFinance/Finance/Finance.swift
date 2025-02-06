@@ -1,8 +1,8 @@
 //
 //  Finance.swift
-//  YFinance
+//  ¯\_(ツ)_/¯
 //
-//  Created by Lioz Balki on 1/01/1970.
+//  Created by Lioz Balki on 01/01/1970.
 //
 
 import Foundation
@@ -14,9 +14,9 @@ public class Finance {
         didSet { /* * * */ }
     }
     
-    private(set) public lazy var cache: FinanceCache = {
-        return FinanceCache()
-    }()
+    public var cache: FinanceCache {
+        return FinanceCache.get
+    }
     
     private(set) public lazy var quote: FinanceQuote = {
         return FinanceQuote(.default)
@@ -28,6 +28,10 @@ public class Finance {
     
     private(set) public lazy var lookup: FinanceLookup = {
         return FinanceLookup(.default)
+    }()
+    
+    private(set) public lazy var headlines: FinanceHeadlines = {
+        return FinanceHeadlines(.default)
     }()
     
     internal init(_ target: NSObject? = nil) {

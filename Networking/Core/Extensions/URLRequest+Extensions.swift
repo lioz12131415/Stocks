@@ -2,7 +2,7 @@
 //  URLRequest+Extensions.swift
 //  Networking
 //
-//  Created by Lioz Balki on 1/01/1970.
+//  Created by ליעוז בלקי on 17/12/2024.
 //
 
 import Foundation

@@ -1,8 +1,8 @@
 //
 //  ChartsSpark.swift
-//  Stocks
+//  ¯\_(ツ)_/¯
 //
-//  Created by Lioz Balki on 1/01/1970.
+//  Created by Lioz Balki on 01/01/1970.
 //
 
 import Foundation
@@ -14,6 +14,10 @@ public class ChartsSpark: Spark<Chart> {
         get { super.tickers }
         set { super.tickers = newValue }
     }
+    
+    fileprivate lazy var service: ChartRequestsService = {
+        return .default
+    }()
         
     @discardableResult
     public override func stop() -> Self {
@@ -40,7 +44,7 @@ public class ChartsSpark: Spark<Chart> {
     }
     
     deinit {
-        work.stop()
+        self.group.stop()
     }
 }
 
@@ -50,30 +54,21 @@ extension ChartsSpark {
         guard !tickers.isEmpty else {
             return
         }
-        work.run { [weak self] receive in
+        group.run { [weak self] group, receive in
             guard let self = self else {
                 return
             }
+            let charts     = tickers
+            var dictionary = Dictionary<String, Chart>()
             
-            let c = finance.cache
-            var d = Dictionary<String, Chart>()
-            let s = ChartRequestsService.default
-            await withTaskGroup(of: Chart?.self) { group in
-                for c in self.tickers {
-                    group.addTask {
-                        try? await s.chart(symbol: c.symbol, range: c.range, granularity: c.granularity)
-                    }
-                }
-                for await chart in group {
-                    guard let chart = chart else {
-                        continue
-                    }
-                    self.update(chart, c, options: options)
-                    d.updateValue(chart, forKey: chart.symbol)
-                }
+            for chart in charts {
+                group.addTask { try? await self.service.chart(from: chart) }
+            }
+            for await chart in group {
+                self.update(chart, &dictionary, options: options)
             }
             receive.sync {
-                self.receive?(self.tickers.compactMap { d[$0.symbol] })
+                self.receive?(charts.compactMap { dictionary[$0.symbol] })
             }
         }
         .stop()
@@ -82,16 +77,21 @@ extension ChartsSpark {
 }
 
 extension ChartsSpark {
-    fileprivate func update(_ chart: Chart, _ cache: FinanceCache, options: Set<CacheOption>) {
-        let cache    = cache.charts[range: chart.range, granularity: chart.granularity]
+    fileprivate func update(_ chart: Chart?,
+                            _ dictionary: inout [String: Chart], options: Set<CacheOption>) {
+        guard let chart = chart else {
+            return
+        }
+        let cache    = finance.cache.charts[range: chart.range, granularity: chart.granularity]
         let contains = cache.contains(chart.symbol)
         
         if options.contains(.update), contains {
-            cache.update(chart)
+            cache.update(chart, for: chart.symbol)
         }
         if options.contains(.save), contains {
-            cache.save(.sync)
+            cache.save()
         }
+        dictionary.updateValue(chart, forKey: chart.symbol)
     }
 }
 
@@ -100,5 +100,4 @@ extension ChartsSpark {
         return ChartsSpark()
     }
 }
-
 
